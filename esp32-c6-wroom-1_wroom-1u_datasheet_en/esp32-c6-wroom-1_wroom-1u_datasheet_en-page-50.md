@@ -1,0 +1,55 @@
+Title: Revision History
+
+Table:
+- Column Headers: Date, Version, Release notes
+- Row 1: 
+  - Date: 2025-12-10,
+  - Version: v1.4,
+  - Release notes: In Section 1.2 Series Comparison: Updated "Ordering Code" to "Part Number". Added information about ESP32-C6-WROOM-1-N16 and ESP32-C6-WROOM-1U-N16
+- Row 2:
+  - Date: (Blank),
+  - Version: v1.4,
+  - Release notes: In Chapter 2 Block Diagram, added a note about pin mapping between the chip and in-package flash.
+- Row 3:
+  - Date: 2025-07-17,
+  - Version: v1.3,
+  - Release notes: 
+    - Added Sections 4.5 Chip Power-up and Reset, 6.5 Memory Specifications and Datasheet Versioning
+    - In Chapter 10.2 Dimensions of External Antenna Connector, added the external antenna information for certification.
+- Row 4:
+  - Date: (Blank),
+  - Version: v1.3,
+  - Release notes: 
+    - Added Sections in Chapter 1 Module Overview, renamed Section 1.2 Description to Series Comparison, and added a table note about the maximum clock frequency supported by SPI flash
+- Row 5:
+  - Date: 2025-03-21,
+  - Version: v1.2,
+  - Release notes: 
+    - In Table 6-1 Absolute Maximum Ratings of Section 6 Electrical Characteristics, updated the maximum storage temperature from 85°C to 105°C
+    - Improved the structure, formatting, and wording in:
+      - Chapter 4 Boot Configurations (used to be Section 3.3 Strapping Pins)
+      - Chapter 5 Peripherals (used to be Chapter 4 Peripherals)
+      - Chapter 10 Physical Dimensions and Chapter 11 PCB Layout Recommendations (used to be Chapter 9 Physical Dimensions and PCB Land Pattern)
+    - Added Section 11.2 Module Placement for PCB Design
+- Row 6:
+  - Date: (Blank),
+  - Version: v1.3,
+  - Release notes: 
+    - In Section 1.1 Features, added information about certification and test.
+    - In Section 1.2 Series Comparison, the minimum RF transmit power for Bluetooth LE and 802.15.4 in active mode was updated from -24 dBm to -16 dBm, and the maximum power was updated from 20 dBm to 19 dBm
+- Row 7:
+  - Date: (Blank),
+  - Version: v1.3,
+  - Release notes: 
+    - In Chapter 7 RF Characteristics, the RF transmit power range for Bluetooth LE and 802.15.4 was updated from -24 to ~20 dBm to -16 to ~19 dBm
+- Row 8:
+  - Date: (Blank),
+  - Version: v1.3,
+  - Release notes: 
+    - In Section 11 PCB Layout Recommendations, added information about the recommended PCB land pattern of ESP32-C6-WROOM-1U module and 3D models of ESP32-C6-WROOM-1 and ESP32-C6-WROOM-1U modules
+
+Footer:
+- Page number: "50"
+- Company name: Espressif Systems
+- Document title: Submit Documentation Feedback
+- Document version reference at the bottom right corner indicates continuation on next page.

@@ -8,10 +8,13 @@ The PDFs are splited by pages.
 
   * [esp32-s3_datasheet_en](./esp32-s3_datasheet_en) - ESP32-S3 Datasheet
   * [esp32-s2_datasheet_en](./esp32-s2_datasheet_en) - ESP32-S2 Datasheet
+  * [esp32-s2-mini-2_esp32-s2-mini-2u_datasheet_en](./esp32-s2-mini-2_esp32-s2-mini-2u_datasheet_en) - ESP32-S2-MINI-2 DATASHEET
   * [esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en](./esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en) - ESP32-S2-SOLO-2/ESP32-S2-SOLO-2U Datasheet
   * [esp32-c6_datasheet_en](./esp32-c6_datasheet_en) - ESP32-C6 Datasheet
+  * [esp32-c6-wroom-1_wroom-1u_datasheet_en](./esp32-c6-wroom-1_wroom-1u_datasheet_en) - ESP32-C6 Wroom module datasheet
   * [esp32-c61_datasheet_en](./esp32-c61_datasheet_en) - ESP32-C61 Datasheet
   * [esp32-c5_datasheet_en](./esp32-c5_datasheet_en) - ESP32-C5 Datasheet
+  * [esp32-c5-wroom-1_wroom-1u_datasheet_en](./esp32-c5-wroom-1_wroom-1u_datasheet_en) - ESP32-C5 wroom 1 module datasheet
   * [esp32-c3_datasheet_en](./esp32-c3_datasheet_en) - ESP32-C3 Datasheet
   * [esp32-c3-mini-1_datasheet_en](./esp32-c3-mini-1_datasheet_en) - ESP32-C3-MINI-1 Datasheet
   * [esp32-h2_datasheet_en](./esp32-h2_datasheet_en) - ESP32-H2 Datasheet
