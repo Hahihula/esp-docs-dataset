@@ -1,0 +1,24 @@
+**Chapter Title:**
+Chapter 24 Ethernet Media Access Controller (EMAC)
+
+**Table of Bits and Descriptions**
+
+| Bits | Name                | Description                                                                                   |
+|------|---------------------|-----------------------------------------------------------------------------------------------|
+| [12] | IPE: IP Payload Error | When set, this bit indicates that MAC transmitter detected an error in the TCP, UDP, or ICMP IP datagram payload. The transmitter checks the payload length received in the IPv4 or IPv6 header against the actual number of TCP, UDP, or ICMP packet bytes received from the application, and issues an error status in case of a mismatch. |
+| [11] | LOC: Loss of Carrier | When set, this bit indicates that a loss of carrier occurred during frame transmission (that is, the MII_CRS signal was inactive for one or more transmit clock periods during frame transmission). This is valid only for the frames transmitted without collision when the MAC operates in half-duplex mode. |
+| [10] | NC: No Carrier      | When set, this bit indicates that the Carrier Sense signal from the PHY was not asserted during transmission. |
+| [9]  | LC: Late Collision  | When set, this bit indicates that frame transmission is aborted because of a collision occurring after the collision window (64 byte-times including Preamble in MII mode, and 512 byte-times including Preamble and Carrier Extension). This bit is not valid if the Underflow Error bit is set. |
+| [8]  | EC: Excessive Collision | When set, this bit indicates that the transmission was aborted after 16 successive collisions while attempting to transmit the current frame. If bit EMACRETRY of EMACCONFIG_REG is set, this bit is set after the first collision, and the transmission of the frame is aborted. |
+| [7]  | VF: VLAN Frame     | When set, this bit indicates that the transmitted frame is a VLAN-type frame. These status bits indicate the number of collisions that occurred before the frame was transmitted. This count is not valid when the Excessive Collisions bit (TDESO[8]) is set. The core updates these fields only in half-duplex mode. |
+| [6:3]| Ctrl/status        | When this field, it indicates that transmission has ended because of excessive deferral of over 24,288 bit times (if Jumbo Frame is enabled) if bit EMACDEFERAL of EMACCONFIG_REG is set high. |
+| [1]  | UF: Underflow Error | When set, this bit indicates that the MAC aborted the frame because the data arrived late from the Host memory. Underflow Error indicates that the DMA encountered an empty transmit buffer while transmitting the frame. The transmission process enters the Suspended state and sets both Bit[5] in Transmit Underflow Register (Status Register) and Bit[0] in Transmit Interrupt Register (Status Register). |
+| [0]  | DB: Deferred Bit   | When set, this bit indicates that the MAC defers before transmission because of the presence of a carrier. This bit is valid only in half-duplex mode.
+
+**Footer Information**
+- Page Number: 478
+- Document Title: ESP32 TRM (Version 5.6)
+- Company Name: Espressif Systems
+
+**Action Links**
+- Submit Documentation Feedback
