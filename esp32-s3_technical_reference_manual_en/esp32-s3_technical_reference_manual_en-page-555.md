@@ -1,0 +1,48 @@
+**Chapter Title:**
+Chapter 9 Interrupt Matrix (INTERRUPT)
+
+**Section Titles and Subtitles:**
+
+- **9.5 Registers**
+
+- **9.5.1 CPUO Interrupt Registers**
+
+**Body Text/Content List of Registers with their addresses in hexadecimal format:** 
+
+- Register 9.1. INTERRUPT_CORE0_MAC_INR_MAP_REG (0x0000)
+- Register 9.2. INTERRUPT_CORE0_MAC_NMI_MAP_REG (0x0004)
+- Register 9.3. INTERRUPT\Core0_PWR_INR_MAP_REG (0x0008)
+- Register 9.4. INTERRUPT\Core0_BB_INT_MAP_REG (0x000C)
+- Register 9.5. INTERRUPT\Core0_BT_MAC_INR_MAP_REG (0x0010)
+- Register 9.6. INTERRUPT\Core0_BT_BB_INT_MAP_REG (0x0014)
+- Register 9.7. INTERRUPT\Core0_BT_BB_NMI_MAP_REG (0x0018)
+- Register 9.8. INTERRUPT\Core0_RWBIR_INR_MAP_REG (0x001C)
+- Register 9.9. INTERRUPT\Core0_RWBLE_INR_MAP_REG (0x0020)
+- Register 9.10. INTERRUPT\Core0_RWBT_NMI_MAP_REG (0x0024)
+- Register 9.11. INTERRUPT\Core0_RWBLE_NMI_MAP_REG (0x0028)
+- Register 9.12. INTERRUPT\Core0_I2C_MST_INR_MAP_REG (0x002C)
+- Register 9.13. INTERRUPT\Core0_UHClO_INTR_MAP_REG (0x0038)
+- Register 9.14. INTERRUPT\Core0_GPIO_INTPUT_CPU_MAP_REG (0x0040)
+- Register 9.15. INTERRUPT\Core0_GPIO_INTPUT_CPU_NMI_MAP_REG (0x0044)
+- Register 9.16. INTERRUPT\Core0_SPI_INTR_1_MAP_REG (0x0050)
+- Register 9.17. INTERRUPT\Core0_SPI_INTR_2_MAP_REG (0x0054)
+- Register 9.18. INTERRUPT\Core0_SPI_INTR_3_MAP_REG (0x0058)
+- Register 9.19. INTERRUPT\Core0_LCD_CAM_INTP_MAP_REG (0x0060)
+- Register 9.20. INTERRUPT\Core0_I2S0_INTP_MAP_REG (0x0064)
+- Register 9.21. INTERRUPT\Core0_I2S1_INTP_MAP_REG (0x0068)
+- Register 9.22. INTERRUPT\Core0_UART_INTR_MAP_REG (0x006C)
+- Register 9.23. INTERRUPT\Core0_UART1_INTR_MAP_REG (0x0070)
+- Register 9.24. INTERRUPT\Core0_UART2_INTP_MAP_REG (0x0074)
+- Register 9.25. INTERRUPT\Core0_SDIO_HOST_INTP_MAP_REG (0x0078)
+- Register 9.26. INTERRUPT\Core0_PWM0_INTR_MAP_REG (0x007C)
+- Register 9.27. INTERRUPT\Core0_PWM1_INTP_MAP_REG (0x0080)
+- Register 9.28. INTERRUPT\Core0_LEDC_INTP_MAP_REG (0x008C)
+- Register 9.29. INTERRUPT\Core0_EFUSE_INTP_MAP_REG (0x0090)
+- Register 9.30. INTERRUPT\Core0_TWAI_INTP_MAP_REG (0x0094)
+- Register 9.31. INTERRUPT\Core0_USB_INTP_MAP_REG (0x0098)
+
+**Footer:**
+Espressif Systems
+Submit Documentation Feedback
+
+ESP32-S3 TRM (Version 1.7)

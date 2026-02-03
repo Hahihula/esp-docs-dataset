@@ -1,0 +1,51 @@
+**Title: Chapter 1 Processor Instruction Extensions (PIE)**
+
+**Section Title: 1.8.141 EE.VMULAS.S16.QACC.LD.IP.QUP**
+
+---
+
+### Instruction Word:
+- `0001`  
+  - `imm16[5:4]`: `qu[2:1]`
+  - `qy[0]`: `qs0[2:0]`
+  - `qu[0]`: `qs1[2:0]`
+  - `qx[1:0]`: `as[3:0]`
+  - `111`: `qx[2]`
+
+---
+
+### Assembler Syntax:
+- `EE.VMULAS.S16.QACC.LD.IP.QUP qu, as, imm16, qx, qy, qs0, qs1`
+
+---
+
+### Description
+This instruction divides registers `qx` and `qy` into 8 data segments by 16 bits. The signed multiplication result of these sets is added to the corresponding 40-bit data segment in special registers `QACC_H` and `QACC_L` respectively. The calculated result is saturated to a 40-bit signed number and then stored to the corresponding 40-bit data segment in `QACC_H` and `QACC_L`.
+
+During the operation, the lower 4 bits of the access address in register `as` are forced to be zero (`0`), and subsequently loaded from memory into `register qs1`. After accessing is completed, the value stored at this location (in `register qs1`) increments by a signed 6-bit extended constant found within an instruction code segment that has been left-shifted four times. Simultaneously, it also obtains unaligned data of length sixteen bytes through concatenation and shifting.
+
+The shift byte (`0`) is then saved in the special register `SAR_BYTE`.
+
+---
+
+### Operation
+- `QACC_L[ 39: 0 ] = min(max(QACC_L[ 39: 0 ] + qx[ 15: 0 ] * qy[ 15: 0 ], -2^{39}), 2^{39}-1)`
+- `QACC_L[ 79: 40 ] = min(max(QACC_L[ 79: 40 ] + qx[ 31: 16 ] * qy[ 31: 16 ], -2^{39}), 2^{39}-1)`
+- `QACC_L[119: 80 ] = min(max(QACC_L[119: 80 ] + qx[ 47: 32 ] * qy[ 47: 32 ], -2^{39}), 2^{39}-1)`
+- `QACC_L[159:120] = min(max(QACC_L[159:120] + qx[ 63: 48 ] * qy[ 63: 48 ], -2^{39}), 2^{39}-1)`
+- `QACC_H[ 39: 0 ] = min(max(QACC_H[ 39: 0 ] + qx[ 79: 64 ] * qy[ 79: 64 ], -2^{39}), 2^{39}-1)`
+- `QACC_H[ 79: 40 ] = min(max(QACC_H[ 79: 40 ] + qx[ 95: 80 ] * qy[ 95: 80 ], -2^{39}), 2^{39}-1)`
+- `QACC_H[119: 80 ] = min(max(QACC_H[119: 80 ] + qx[111: 96 ] * qy[111: 96 ], -2^{39}), 2^{39}-1)`
+- `QACC_H[159:120] = min(max(QACC_H[159:120] + qx[127:112 ] * qy[127:112 ], -2^{39}), 2^{39}-1)`
+- `qu[127:0] = load128({as[31:4],4{0}})`
+- `as[31:0] = as[31:0] + {22{imm16[5]}, imm16[5:0], 4{0}}`
+- `qs0[127:0] = {qs1[127:0], qs0[127:0]} >> {SAR_BYTE[3:0] << 3}`
+
+---
+
+**Footer:**  
+Espressif Systems  
+Page number: **217**  
+Document version: ESP32-S3 TRM (Version 1.7)  
+
+**Link:** Submit Documentation Feedback
