@@ -1,0 +1,48 @@
+**Title: Electrical Characteristics**
+
+---
+
+### Table 6-6. Current Consumption in Low-Power Modes
+
+| Mode          | Description                                    | Typ (µA) |
+|---------------|-------------------------------------------------|----------|
+| Light-sleep   | Wi-Fi are powered down, and all GPIOs are high-impedance | 130     |
+| Deep-sleep    | RTC timer + RTC memory                          | 5       |
+| Power off     | CHIP_EN is set to low level, the chip is powered off | 1       |
+
+---
+
+**Subtitle: Memory Specifications**
+
+The data below is sourced from the memory vendor datasheet. These values are guaranteed through design and/or characterization but are not fully tested in production. Devices are shipped with the memory erased.
+
+---
+
+### Table 6-7. Flash Specifications
+
+| Parameter    | Description                           | Min   | Typ     | Max   | Unit |
+|--------------|---------------------------------------|-------|---------|-------|------|
+| VCC          | Power supply voltage (1.8 V)         | 1.65  | 1.80    | 2.00  | V    |
+|              | Power supply voltage (3.3 V)         | 2.7   | 3.3     | 3.6   | V    |
+| Fc           | Maximum clock frequency               | —     | 80      | —     | MHz  |
+| Program/erase cycles | Program/erase cycles                | 100,000 | —       | cycles |      |
+| TRet         | Data retention time                   | 20    | years   | —     |      |
+| TPP          | Page program time                     | 0.8   | ms      | 5     |      |
+| TSE          | Sector erase time (4 KB)              | 70    | ms      | 500   |      |
+| TE1          | Block erase time (32 KB)              | 0.2   | s       | 2     |      |
+| TE2          | Block erase time (64 KB)              | —     | 0.3    | 3     | s    |
+| TCE1         | Chip erase time (16 Mb)               | 7     | s       | 20    |      |
+| TCE2         | Chip erase time (32 Mb)               | 20    | s       | 60    |      |
+| TCE3         | Chip erase time (64 Mb)               | —     | 25     | 100   | s    |
+| TCE4         | Chip erase time (128 Mb)              | 60    | s       | 200   |      |
+| TCE5         | Chip erase time (256 Mb)              | —     | 70     | 300   | s    |
+
+---
+
+**Footer:**
+- Page number and document version information:
+  - "Espressif Systems"
+  - "ESP8685-WROOM-03 Datasheet v1.5" 
+  - "Submit Documentation Feedback"
+
+---

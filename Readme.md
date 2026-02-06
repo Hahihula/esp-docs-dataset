@@ -25,6 +25,10 @@ The PDFs are splited by pages.
   * [esp32-p4-chip-revision-v1.3_datasheet_en](./esp32-p4-chip-revision-v1.3_datasheet_en) - ESP32-P4 Chip Revision V1.3 Datasheet
   * [esp32_audio_design_guidelines__en](./esp32_audio_design_guidelines__en) - ESP32 Audio Design Guidelines
   * [esp32_technical_reference_manual_en](./esp32_technical_reference_manual_en) - ESP32 Technical Reference Manual
+  * [esp32-c3-wroom-02_datasheet_en](./esp32-c3-wroom-02_datasheet_en) - ESP32-C3-WROOM-02 Datasheet
+  * [esp32-s3-mini-1_mini-1u_datasheet_en](./esp32-s3-mini-1_mini-1u_datasheet_en) - ESP32-S3-MINI-1/MINI-1U Datasheet
+  * [esp8685-wroom-01_datasheet_en](./esp8685-wroom-01_datasheet_en) - ESP8685-WROOM-01 Datasheet
+  * [esp8685-wroom-03_datasheet_en](./esp8685-wroom-03_datasheet_en) - ESP8685-WROOM-03 Datasheet
 
 ## ESP-IDF Documentation
 
