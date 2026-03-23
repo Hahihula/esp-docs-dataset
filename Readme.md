@@ -36,5 +36,5 @@ The PDFs are splited by pages.
 
 ## Support
 
-If you find this repository useful, please give it a ⭐ star! Converting all this documentation took considerable personal GPU time and effort.
+If you find this repository useful, please give it a ⭐ star!
 
