@@ -1,0 +1,18 @@
+
+
+```markdown
+Register 30.7. USB_SERIAL_JTAG_JFIFO_ST_REG (0x0020)
+
+USB_SERIAL_JTAG_IN_FIFO_CNT   JTAG in FIFO counter. (RO)
+USB_SERIAL_JTAG_IN_FIFO_EMPTY Set to indicate JTAG in FIFO is empty. (RO)
+USB_SERIAL_JTAG_IN_FIFO_FULL  Set to indicate JTAG in FIFO is full. (RO)
+USB_SERIAL_JTAG_OUT_FIFO_CNT  JTAG out FIFO counter. (RO)
+USB_SERIAL_JTAG_OUT_FIFO_EMPTY Set to indicate JTAG out FIFO is empty. (RO)
+USB_SERIAL_JTAG_OUT_FIFO_FULL Set to indicate JTAG out FIFO is full. (RO)
+USB_SERIAL_JTAG_IN_FIFO_RESET Write 1 to reset JTAG in FIFO. (R/W)
+USB_SERIAL_JTAG_OUT_FIFO_RESET Write 1 to reset JTAG out FIFO. (R/W)
+
+Register 30.8. USB_SERIAL_JTAG_FRAM_NUM_REG (0x0024)
+
+USB_SERIAL_JTAG_SOF_FRAME_INDEX Frame index of received SOF frame. (RO)
+```

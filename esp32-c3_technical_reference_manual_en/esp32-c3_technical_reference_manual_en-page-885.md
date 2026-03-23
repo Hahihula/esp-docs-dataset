@@ -1,0 +1,22 @@
+
+
+```markdown
+Register 34.14. APB_SARADC_INT_ENA_REG (0x0040)
+
+| Bit | 31 | 30 | 29 | 28 | 27 | 26 | 25 | ... | 0 |
+|-----|----|----|----|----|----|----|----|-----|---|
+|     | APB_SARADC_ADC1_DONE_INT_ENA<br>APB_SARADC_ADC2_DONE_INT_ENA<br>APB_SARADC_THRES1_LOW_INT_ENA<br>APB_SARADC_THRESO_LOW_INT_ENA<br>APB_SARADC_THRES1_HIGH_INT_ENA<br>APB_SARADC_THRESO_HIGH_INT_ENA | 0 | 0 | 0 | 0 | 0 | 0 | ... | 0 |
+|     | (reserved) |
+
+APB_SARADC_THRES1_LOW_INT_ENA Enable bit of APB_SARADC_THRES1_LOW_INT interrupt. (R/W)
+
+APB_SARADC_THRESO_LOW_INT_ENA Enable bit of APB_SARADC_THRESO_LOW_INT interrupt. (R/W)
+
+APB_SARADC_THRES1_HIGH_INT_ENA Enable bit of APB_SARADC_THRES1_HIGH_INT interrupt. (R/W)
+
+APB_SARADC_THRESO_HIGH_INT_ENA Enable bit of APB_SARADC_THRESO_HIGH_INT interrupt. (R/W)
+
+APB_SARADC_ADC2_DONE_INT_ENA Enable bit of APB_SARADC_ADC2_DONE_INT interrupt. (R/W)
+
+APB_SARADC_ADC1_DONE_INT_ENA Enable bit of APB_SARADC_ADC1_DONE_INT interrupt. (R/W)
+```

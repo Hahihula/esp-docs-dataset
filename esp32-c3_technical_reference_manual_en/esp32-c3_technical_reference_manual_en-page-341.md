@@ -1,0 +1,13 @@
+
+
+```markdown
+Register 14.6. PMS_INTERNAL_SRAM_USAGE_1_REG (0x001C)
+
+PMS_INTERNAL_SRAM_USAGE_CPU_CACHE Configures SRAM0 is allocated for CPU or ICACHE. (R/WL)
+```
+
+```markdown
+Register 14.7. PMS_INTERNAL_SRAM_USAGE_4_REG (0x0024)
+
+PMS_INTERNAL_SRAM_USAGE_LOG_SRAM Set 1 to enable ASSIST_DEBUG access SRAM1. (R/WL)
+```

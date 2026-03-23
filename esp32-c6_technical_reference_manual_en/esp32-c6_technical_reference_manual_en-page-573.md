@@ -1,0 +1,53 @@
+
+
+# 16.7 Registers
+
+## 16.7.1 High Performance APM Registers (HP_APM_REG)
+
+### Register 16.1. HP_APM_REGION_FILTER_EN_REG (0x0000)
+
+```
+31                                 16          15                                    0
++--------------------------------------------------------------------------------------------------+
+| 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 |           Ox01                         | Reset
++--------------------------------------------------------------------------------------------------+
+```
+
+**HP_APM_REGION_FILTER_EN** Configure bit *n* (0-15) to enable region *n*.  
+0: disable  
+1: enable  
+(R/W)
+
+---
+
+### Register 16.2. HP_APM_REGIONn_ADDR_START_REG (*n*: 0-15) (0x0004+0xC*n*)
+
+```
+31                                 0
++--------------------------------------------------------------------------------------------------+
+|                                                                                                    | Reset
++--------------------------------------------------------------------------------------------------+
+```
+
+**HP_APM_REGIONn_ADDR_START** Configures start address of region *n*. (R/W)
+
+---
+
+### Register 16.3. HP_APM_REGIONn_ADDR_END_REG (*n*: 0-15) (0x0008+0xC*n*)
+
+```
+31
++--------------------------------------------------------------------------------------------------+
+|                                                                                                    | Reset
++--------------------------------------------------------------------------------------------------+
+```
+
+**HP_APM_REGIONn_ADDR_END** Configures end address of region *n*. (R/W)
+
+---
+
+Espressif Systems
+
+Submit Documentation Feedback
+
+ESP32-C6 TRM (Version 1.1)

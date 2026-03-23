@@ -1,0 +1,50 @@
+
+
+```markdown
+|Name|Description|Address|Access|
+|:------------------------------------------|:------------------------------------------------------------------------|:--------|:-------|
+|LP_UART_STATUS_REG|LP UART status register|0x001C|RO|
+|LP_UART_MEM_TX_STATUS_REG|TX FIFO write and read offset address|0x0068|RO|
+|LP_UART_MEM_RX_STATUS_REG|RX FIFO write and read offset address|0x006C|RO|
+|LP_UART_FSM_STATUS_REG|LP UART transmit and receive status|0x0070|RO|
+|LP_UART_AFIFO_STATUS_REG|LP UART asynchronous FIFO Status|0x0090|RO|
+|AT Escape Sequence Selection Configuration||||
+|LP_UART_AT_CMD_PRECNT_SYNC_REG|Pre-sequence timing configuration|0x0050|R/W|
+|LP_UART_AT_CMD_POSTCNT_SYNC_REG|Post-sequence timing configuration|0x0054|R/W|
+|LP_UART_AT_CMD_GAPTOUT_SYNC_REG|Timeout configuration|0x0058|R/W|
+|LP_UART_AT_CMD_CHAR_SYNC_REG|AT escape sequence detection configuration|0x005C|R/W|
+|Version Register||||
+|LP_UART_DATE_REG|LP UART version register|0x008C|R/W|
+
+## 27.6.3 UHCI Register Summary
+
+The addresses in this section are relative to UHCI base address provided in Table 5.3-2 in Chapter 5 System and Memory.
+
+The abbreviations given in Column Access are explained in Section Access Types for Registers.
+
+|Name|Description|Address|Access|
+|:--------------------------------------|:------------------------------------------------------------------|:--------|:-------|
+|Configuration Register||||
+|UHCI_CONFO_REG|UHCI configuration register|0x0000|R/W|
+|UHCI_CONF1_REG|UHCI configuration register|0x0014|varies|
+|UHCI_ESCAPE_CONF_REG|Escape character configuration|0x0020|R/W|
+|UHCI_HUNG_CONF_REG|Timeout configuration|0x0024|R/W|
+|UHCI_ACK_NUM_REG|UHCI ACK number configuration|0x0028|varies|
+|UHCI_QUICK_SENT_REG|UHCI quick send configuration register|0x0030|varies|
+|UHCI_REG_Q0_WORDO_REG|Q0 WORDO quick send register|0x0034|R/W|
+|UHCI_REG_Q0_WORD1_REG|Q0 WORD1 quick send register|0x0038|R/W|
+|UHCI_REG_Q1_WORDO_REG|Q1 WORDO quick send register|0x003C|R/W|
+|UHCI_REG_Q1_WORD1_REG|Q1 WORD1 quick send register|0x0040|R/W|
+|UHCI_REG_Q2_WORDO_REG|Q2 WORDO quick send register|0x0044|R/W|
+|UHCI_REG_Q2_WORD1_REG|Q2 WORD1 quick send register|0x0048|R/W|
+|UHCI_REG_Q3_WORDO_REG|Q3 WORDO quick send register|0x004C|R/W|
+|UHCI_REG_Q3_WORD1_REG|Q3 WORD1 quick send register|0x0050|R/W|
+|UHCI_REG_Q4_WORDO_REG|Q4 WORDO quick send register|0x0054|R/W|
+|UHCI_REG_Q4_WORD1_REG|Q4 WORD1 quick send register|0x0058|R/W|
+|UHCI_REG_Q5_WORDO_REG|Q5 WORDO quick send register|0x005C|R/W|
+|UHCI_REG_Q5_WORD1_REG|Q5 WORD1 quick send register|0x0060|R/W|
+|UHCI_REG_Q6_WORDO_REG|Q6 WORDO quick send register|0x0064|R/W|
+|UHCI_REG_Q6_WORD1_REG|Q6 WORD1 quick register|0x0068|R/W|
+|UHCI_ESC_CONFO_REG|Escape sequence configuration register 0|0x006C|R/W|
+|UHCI_ESC_CONF1_REG|Escape sequence configuration register 1|0x0070|R/W|
+```

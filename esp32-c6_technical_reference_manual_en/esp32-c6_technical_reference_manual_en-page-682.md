@@ -1,0 +1,36 @@
+
+
+```markdown
+Chapter 22 RSA Accelerator (RSA)
+
+GoBack
+
+Chapter 22
+
+RSA Accelerator (RSA)
+
+22.1 Introduction
+
+The RSA accelerator provides hardware support for high-precision computation used in various RSA asymmetric cipher algorithms, significantly improving their run time and reducing their software complexity. Compared with RSA algorithms implemented solely in software, this hardware accelerator can speed up RSA algorithms significantly. The RSA accelerator also supports operands of different lengths, which provides more flexibility during the computation.
+
+22.2 Features
+
+The following functionality is supported:
+
+* Large-number modular exponentiation with two optional acceleration options
+* Large-number modular multiplication
+* Large-number multiplication
+* Operands of different lengths
+* Interrupt on completion of computation
+
+22.3 Functional Description
+
+The RSA accelerator is activated by setting the `PCR_RSA_CLK_EN` bit and clearing the `PCR_RSA_RST_EN` bit in the `PCR_RSA_CONF_REG` register. Additionally, users also need to clear `PCR_DS_RST_EN` bit to reset Digital Signature (DS).
+
+The RSA accelerator is only available after the RSA-related memories are initialized. The content of the `RSA_QUERY_CLEAN_REG` register is 0 during initialization and will become 1 after the initialization is done. Therefore, wait until `RSA_QUERY_CLEAN_REG` becomes 1 before using the RSA accelerator.
+
+The `RSA_INT_ENA_REG` register is used to control the interrupt triggered on completion of computation. Write 1 or 0 to this field to enable or disable the interrupt. By default, the interrupt function of the RSA accelerator is enabled.
+
+Notice:
+ESP32-C6's Digital Signature (DS) module also calls the RSA accelerator when working. Therefore, users cannot access the RSA accelerator when the Digital Signature (DS) module is working.
+```

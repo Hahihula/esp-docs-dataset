@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 16 Permission Control (PMS)\nGoBack\n\nRegister 16.33. LP_APM_MO_EXCEPTION_INFO1_REG (0x00D4)\n\nLP_APM_MO_EXCEPTION_ADDR Represents exception addr. (RO)\n\nRegister 16.34. LP_APM_M1_STATUS_REG (0x00D8)\n\nLP_APM_M1_EXCEPTION_STATUS Represents exception status.\nbit0: 1 represents authority_exception\nbit1: 1 represents space_exception\n(RO)\n\nRegister 16.35. LP_APM_M1_STATUS_CLR_REG (0x00DC)\n\nLP_APM_M1_REGION_STATUS_CLR Configures to clear exception status. (WT)\n```

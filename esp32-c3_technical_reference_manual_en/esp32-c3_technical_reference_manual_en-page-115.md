@@ -1,0 +1,3 @@
+
+
+```markdown\n| Name | Description | Address | Access |\n| :------------------------ | :---------------------------------- | :------- | :------ |\n| EFUSE_INT_RAW_REG | eFuse raw interrupt register | 0x01D8 | R/WC/SS |\n| EFUSE_INT_ST_REG | eFuse interrupt status register | 0x01DC | RO |\n| EFUSE_INT_ENA_REG | eFuse interrupt enable register | 0x01E0 | R/W |\n| EFUSE_INT_CLR_REG | eFuse interrupt clear register | 0x01E4 | WO |\n| Version Register |  |  |  |\n| EFUSE_DATE_REG | Version control register | 0x01FC | R/W |\n```

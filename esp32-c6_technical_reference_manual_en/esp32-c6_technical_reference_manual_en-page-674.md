@@ -1,0 +1,3 @@
+
+
+```markdown\n| Name | Description | Address | Access |\n|:-------------------------------|:-------------------------------------|:---------|:--------|\n| HMAC_RD_RESULT_0_REG | Hash result register 0 | 0x00C0 | RO |\n| HMAC_RD_RESULT_1_REG | Hash result register 1 | 0x00C4 | RO |\n| HMAC_RD_RESULT_2_REG | Hash result register 2 | 0x00C8 | RO |\n| HMAC_RD_RESULT_3_REG | Hash result register 3 | 0x00CC | RO |\n| HMAC_RD_RESULT_4_REG | Hash result register 4 | 0x00D0 | RO |\n| HMAC_RD_RESULT_5_REG | Hash result register 5 | 0x00D4 | RO |\n| HMAC_RD_RESULT_6_REG | Hash result register 6 | 0x00D8 | RO |\n| HMAC_RD_RESULT_7_REG | Hash result register 7 | 0x00DC | RO |\n| Version Register | | | |\n| HMAC_DATE_REG | Version control register | 0x01FC | R/W |\n```

@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 1 ESP-RISC-V CPU  GoBack\n\nRegister 1.27. maddress (0x7A2)\n\n```\nmaddress\n+-----------------------------+\n|         31                   | 0\n+-----------------------------+\n|       0x00000000            |\n+-----------------------------+\nReset\n```\n\nmaddress Address used by the selected trigger when performing match operation. (R/W)\nThis is decoded as NAPOT when match=1 in mcontrol.\n```

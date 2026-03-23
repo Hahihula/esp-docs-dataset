@@ -1,0 +1,25 @@
+
+
+```markdown
+| PMU_n1_DIG_ICG_FUNC_EN Bit | Clock         |
+|----------------------------|---------------|
+| bit 0                      | GDMA_CLK      |
+| bit 1                      | SPI2_CLK      |
+| bit 2                      | I2S_RX_CLK    |
+| bit 3                      | UARTO_CLK     |
+| bit 4                      | UART1_CLK     |
+| bit 5                      | UHCI_CLK      |
+| bit 6                      | USB_CLK       |
+| bit 7                      | I2S_TX_CLK    |
+| bit 8                      | N/A           |
+| bit 9                      | N/A           |
+| bit 10                     | N/A           |
+| bit 11                     | N/A           |
+| bit 12                     | N/A           |
+| bit 13                     | TG1_CLK       |
+| bit 14                     | TGO_CLK       |
+| bit 15                     | N/A           |
+| bit 16                     | SOC_ETM_CLK   |
+| bit 17                     | N/A           |
+| bit 18                     | SYSTIMER_CLK  |
+```

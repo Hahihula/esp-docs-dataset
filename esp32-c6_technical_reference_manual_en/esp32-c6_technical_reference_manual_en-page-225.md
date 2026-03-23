@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 6 eFuse Controller  GoBack\n\nRegister 6.85. EFUSE_RD_KEY5_DATA5_REG (0x0150)\nEFUSE_KEY5_DATA5\n31  0\n0x000000 Reset\n\nEFUSE_KEY5_DATA5 Represents the fifth 32 bits of KEY5. (RO)\n\nRegister 6.86. EFUSE_RD_KEY5_DATA6_REG (0x0154)\nEFUSE_KEY5_DATA6\n31  0\n0x000000 Reset\n\nEFUSE_KEY5_DATA6 Represents the sixth 32 bits of KEY5. (RO)\n\nRegister 6.87. EFUSE_RD_KEY5_DATA7_REG (0x0158)\nEFUSE_KEY5_DATA7\n31  0\n0x000000 Reset\n\nEFUSE_KEY5_DATA7 Represents the seventh 32 bits of KEY5. (RO)\n\nRegister 6.88. EFUSE_RD_SYS_PART2_DATA0_REG (0x015C)\nEFUSE_SYS_DATA_PART2_0\n31  0\n0x000000 Reset\n\nEFUSE_SYS_DATA_PART2_0 Represents the 0th 32 bits of the 2nd part of system data. (RO)\n```

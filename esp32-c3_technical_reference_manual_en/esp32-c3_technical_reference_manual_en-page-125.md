@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 4 eFuse Controller (EFUSE)  GoBack\n\nRegister 4.17. EFUSE_RD_REPEAT_DATA4_REG (0x0040)\n\n| 31 | 24 | 23 | ... | 0 |\n|----|----|----|-----|---|\n| 0  | 0  | 0  | 0   | 0 |\n|    |    |    |     | Reset: 0x0000 |\n\nEFUSE_RPT4_RESERVED4 Reserved (used for four backups method). (RO)\n\nRegister 4.18. EFUSE_RD_MAC_SPI_SYS_O_REG (0x0044)\n\n| 31 |\n|----|\n|    |\n| 0x00000000 Reset |\n\nEFUSE_MAC_O Stores the low 32 bits of MAC address. (RO)\n\nRegister 4.19. EFUSE_RD_MAC_SPI_SYS_1_REG (0x0048)\n\n| 31 | ... | 16 | 15 | 0 |\n|----|-----|----|----|---|\n|    |     | 0x00 |    | Reset: 0x00 |\n\nEFUSE_MAC_1 Stores the high 16 bits of MAC address. (RO)\nEFUSE_SPI_PAD_CONF_O Stores the zeroth part of SPI_PAD_CONF. (RO)\n```

@@ -1,0 +1,3 @@
+
+
+```markdown\nFigure 30.5-4. PDM Standard Timing Diagram\n\n30.6 I2S TX/RX Clock\n\nI2S_TX/RX_CLK is the master clock of I2S TX/RX unit, divided from:\n* 40 MHz XTAL_CLK\n* 160 MHz PLL_F160M_CLK\n* 240 MHz PLL_F240M_CLK\n* or external input clock: I2S_MCLK_in\n\nThe serial clock (BCK) of the I2S TX/RX unit is divided from I2S_TX/RX_CLK, as shown in Figure 30.6-1.\nPCR_I2S_TX/RX_CLKM_SEL is used to select clock source for TX/RX unit, and PCR_I2S_TX/RX_CLKM_EN to enable or disable the clock source.\n\nFigure 30.6-1. I2S Clock Generator\n```

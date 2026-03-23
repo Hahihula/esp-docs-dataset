@@ -1,0 +1,15 @@
+
+
+```markdown
+| Bit | Name                                 | Description                                                                                                                                                                                                 |
+|-----|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 31  | (reserved)                          | -                                                                                                                                                                                                             |
+| 30  | UHCI_CHECK_SUM_EN                   | This is the enable bit to check header checksum when UHCI receives a data packet. (R/W)                                                                                                                         |
+| 29  | UHCI_CHECK_SEQ_EN                   | This is the enable bit to check sequence number when UHCI receives a data packet. (R/W)                                                                                                                       |
+| 28  | UHCI_CRC_DISABLE                    | Set this bit to support CRC calculation. Data Integrity Check Present bit in UHCI packet frame should be 1. (R/W)                                                                                              |
+| 27  | UHCI_SAVE_HEAD                      | Set this bit to save the packet header when UHCI receives a data packet. (R/W)                                                                                                                                 |
+| 26  | UHCI_TX_CHECK_SUM_RE                | Set this bit to encode the data packet with a checksum. (R/W)                                                                                                                                                    |
+| 25  | UHCI_TX_ACK_NUM_RE                  | Set this bit to encode the data packet with an acknowledgment when a reliable packet is to be transmitted. (R/W)                                                                                              |
+| 24  | UHCI_WAIT_SW_START                  | The UHCI der will jump to ST_SW_WAIT status if this bit is set to 1. (R/W)                                                                                                                                     |
+| 23  | UHCI_SW_START                       | If current UHCI_ENCODE_STATE is ST_SW_WAIT, the UHCI will start to send data packet out when this bit is set to 1. (R/W/SC)                                                                                     |
+```

@@ -1,0 +1,22 @@
+
+
+```markdown
+Chapter 32 USB Serial/JTAG Controller (USB_SERIAL_JTAG) GoBack
+
+
+Register 32.15. USB_SERIAL_JTAG_INT_CLR_REG (0x0014)
+
+
+Continued from the previous page...
+
+
+USB_SERIAL_JTAG_RTS_CHG_INT_CLR   Write 1 to clear USB_SERIAL_JTAG_RTS_CHG_INT. (WT)
+
+USB_SERIAL_JTAG_DTR_CHG_INT_CLR   Write 1 to clear USB_SERIAL_JTAG_DTR_CHG_INT. (WT)
+
+USB_SERIAL_JTAG_GET_LINE_CODE_INT_CLR   Write 1 to clear USB_SERIAL_JTAG_GET_LINE_CODE_INT.
+(WT)
+
+USB_SERIAL_JTAG_SET_LINE_CODE_INT_CLR   Write 1 to clear USB_SERIAL_JTAG_SET_LINE_CODE_INT.
+(WT)
+```

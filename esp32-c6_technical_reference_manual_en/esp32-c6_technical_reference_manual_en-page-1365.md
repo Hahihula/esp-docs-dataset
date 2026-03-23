@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 39 On-Chip Sensor and Analog Signal Processing  GoBack\n\n## 39.5 Interrupts\n\n*   APB_SARADC_ADC_DONE_INT: Triggered when SAR ADC completes one data conversion.\n*   APB_SARADC_THRESx_HIGH_INT: Triggered when the sampling value is higher than the high threshold of monitor x.\n*   APB_SARADC_THRESx_LOW_INT: Triggered when the sampling value is lower than the low threshold of monitor x.\n*   APB_SARADC_TSENS_INT: Triggered when the temperature sample value exceeds the threshold.\n```

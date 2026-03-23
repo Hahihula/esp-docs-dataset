@@ -1,0 +1,37 @@
+
+
+# 11.5 Registers
+
+The addresses in this section are relative to Event Task Matrix base address provided in Table 5.3-2 in Chapter 5 System and Memory.
+
+## Register 11.1. SOC_ETM_CH_ENA_ADO_REG (0x0000)
+
+```
+31    30    29    28    27    26    25    24    23    22    21    20    19    18    17    16    15    14    13    12    11    10    9     8     7     6     5     4     3     2     1     0
+---------------------------------------------------------------------------------
+SOC_ETM_CH_ENABLED31   SOC_ETM_CH_ENABLED30   SOC_ETM_CH_ENABLED29   SOC_ETM_CH_ENABLED28   SOC_ETM_CH_ENABLED27   SOC_ETM_CH_ENABLED26   SOC_ETM_CH_ENABLED25   SOC_ETM_CH_ENABLED24   SOC_ETM_CH_ENABLED23   SOC_ETM_CH_ENABLED22   SOC_ETM_CH_ENABLED21   SOC_ETM_CH_ENABLED20   SOC_ETM_CH_ENABLED19   SOC_ETM_CH_ENABLED18   SOC_ETM_CH_ENABLED17   SOC_ETM_CH_ENABLED16   SOC_ETM_CH_ENABLED15   SOC_ETM_CH_ENABLED14   SOC_ETM_CH_ENABLED13   SOC_ETM_CH_ENABLED12   SOC_ETM_CH_ENABLED11   SOC_ETM_CH_ENABLED10   SOC_ETM_CH_ENABLED9    SOC_ETM_CH_ENABLED8    SOC_ETM_CH_ENABLED7    SOC_ETM_CH_ENABLED6    SOC_ETM_CH_ENABLED5    SOC_ETM_CH_ENABLED4    SOC_ETM_CH_ENABLED3    SOC_ETM_CH_ENABLED2    SOC_ETM_CH_ENABLED1    SOC_ETM_CH_ENABLED0
+---------------------------------------------------------------------------------
+0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     Reset
+```
+
+**SOC_ETM_CH_ENABLEDn (n: 0-31)** Represents the status of channeln.
+
+O: Disabled  
+1: Enabled  
+(R/WTC/SS)
+
+## Register 11.2. SOC_ETM_CH_ENA_ADO_SET_REG (0x0004)
+
+```
+31    30    29    28    27    26    25    24    23    22    21    20    19    18    17    16    15    14    13    12    11    10    9     8     7     6     5     4     3     2     1     0
+---------------------------------------------------------------------------------
+SOC_ETM_CH_ENABLE31   SOC_ETM_CH_ENABLE30   SOC_ETM_CH_ENABLE29   SOC_ETM_CH_ENABLE28   SOC_ETM_CH_ENABLE27   SOC_ETM_CH_ENABLE26   SOC_ETM_CH_ENABLE25   SOC_ETM_CH_ENABLE24   SOC_ETM_CH_ENABLE23   SOC_ETM_CH_ENABLE22   SOC_ETM_CH_ENABLE21   SOC_ETM_CH_ENABLE20   SOC_ETM_CH_ENABLE19   SOC_ETM_CH_ENABLE18   SOC_ETM_CH_ENABLE17   SOC_ETM_CH_ENABLE16   SOC_ETM_CH_ENABLE15   SOC_ETM_CH_ENABLE14   SOC_ETM_CH_ENABLE13   SOC_ETM_CH_ENABLE12   SOC_ETM_CH_ENABLE11   SOC_ETM_CH_ENABLE10   SOC_ETM_CH_ENABLE9    SOC_ETM_CH_ENABLE8    SOC_ETM_CH_ENABLE7    SOC_ETM_CH_ENABLE6    SOC_ETM_CH_ENABLE5    SOC_ETM_CH_ENABLE4    SOC_ETM_CH_ENABLE3    SOC_ETM_CH_ENABLE2    SOC_ETM_CH_ENABLE1    SOC_ETM_CH_ENABLE0
+---------------------------------------------------------------------------------
+0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     Reset
+```
+
+**SOC_ETM_CH_ENABLEn (n: 0-31)** Configures whether to enable channeln.
+
+O: Invalid. No effect  
+1: Enable  
+(WT)

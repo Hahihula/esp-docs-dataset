@@ -1,0 +1,24 @@
+
+
+```markdown
+| Derived Clock | Source Clock |          | Derived Clock |             |             | Source Clock |             |             |             |             |             |             |             |             |             |             |
+|---------------|--------------|----------|---------------|-------------|-------------|--------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|               | XTAL_CLK     |          | PLL_CLK       |             |             | RC_FAST_     | RC_SLOW_     | OSC_SLOW_CLK| XATAL32K_   | HP_ROOT_CLK | Derived Clock | LP_DYN_     | LP_DYN_     | XTAL_D2_CLK | Source Clock |
+|               | 40 MHz       | 480      | 160           | 80          | 48          | CLK 17.5 MHz| CLK 136 kHz | 32 kHz      | CLK 32 kHz  | 160 MHz/40   | MSPI_CLK     | APB_CLK     | AHB_CLK     | CPU_CLK     | FAST_CLK    | SLOW_CLK    | 20 MHz       | LP_FAST_CLK | CLOCK FROM IO |
+| PLL_48M       | ~            |          |               |             |             |             |             |             |             |             |              |             |             |             |             |             |             |             |             |             |
+| 240M_CLK      | Y            |          |               |             |             |             |             |             |             |             |              |             |             |             |             |             |             |             |             |             |
+| HP_ROOT_CLK   | Y            |          |               |             |             |             |             |             |             |             |              |             |             |             |             |             |             |             |             |             |
+| MSPI_CLK      |               |          |               |             |             |             |             |             |             | Y            |              |             |             |             |             |             |             |             |             |             |
+| CPYPTO_CLK    |               |          |               |             |             |             |             |             |             | Y            |              |             |             |             |             |             |             |             |             |             |
+| APB_CLK       |               |          |               |             |             |             |             |             |             | Y            |              |             |             |             |             |             |             |             |             |             |
+| AHB_CLK       |               |          |               |             |             |             |             |             |             | Y            |              |             |             |             |             |             |             |             |             |             |
+| CPU_CLK       |               |          |               |             |             |             |             |             |             | Y            |              |             |             |             |             |             |             |             |             |             |
+| LP_DYN_FAST_CLK |               |          |               |             |             |             |             |             |             | Y            |              |             |             |             |             |             |             |             |             |             |
+| LP_DYN_SLOW_CLK|               |          |               |             |             |             |             | Y           | Y           |             |              |             |             |             |             |             |             |             |             |             |
+| XTAL_D2_CLK   | Y            |          |               |             |             |             |             |             |             |             |              |             |             |             |             |             |             |             |             |             |
+| LP_FAST_CLK   |               |          |               |             |             | Y           |             |             |             |             |              |             |             |             |             |             |             |             |             |             |
+
+Table 8.2-3. Derived Clock Source
+
+Table 8.2-4. HP Clocks Used by Each Peripheral
+```

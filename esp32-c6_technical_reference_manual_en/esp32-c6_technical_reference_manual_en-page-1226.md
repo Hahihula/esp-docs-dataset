@@ -1,0 +1,3 @@
+
+
+```markdown\n| Enable Field                  | Valid Task Input                          | Response Operation                                                                 |\n|-------------------------------|-------------------------------------------|-------------------------------------------------------------------------------------|\n|MCPWM_TASK_CMPRx_A_UP_EN       | MCPWM_TASK_CMPRx_A_UP                     | timer stamp A of the PWM operator x is updated to the value of the shadow register MCPWM_GENx_A |\n```

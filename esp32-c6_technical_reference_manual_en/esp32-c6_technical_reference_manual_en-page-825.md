@@ -1,0 +1,19 @@
+
+
+```markdown
+| Espresif Signal | FSPI Signal | FD¹ | 1-bit SPI 3-line HD² | 1-bit SPI 4-line HD | Master 2-bit Dual SPI | Master 4-bit Quad SPI | QPI FD | Slave 1-bit SPI 3-line HD | Slave 1-bit SPI 4-line HD | Slave 2-bit Dual SPI | Slave 4-bit Quad SPI | Slave QPI |
+|-----------------|-------------|-----|----------------------|---------------------|------------------------|------------------------|--------|----------------------------|----------------------------|-----------------------|-----------------------|------------|
+|                 |             |     |                      |                     |                        |                        |        |                            |                            |                       |                       |            |
+| FSPICLK         | Y           | Y   | Y                    | Y                   | Y                      | Y                      | Y      | Y                          | Y                          | Y                     | Y                     | Y          |
+| FSPICS0         | Y           | Y   | Y                    | Y                   | Y                      | Y                      | Y      | Y                          | Y                          | Y                     | Y                     | Y          |
+| FSPICS1         | Y           | Y   | Y                    | Y                   | Y                      | Y                      |        |                            |                            |                       |                       |            |
+| FSPICS2         | Y           | Y   | Y                    | Y                   | Y                      | Y                      |        |                            |                            |                       |                       |            |
+| FSPICS3         | Y           | Y   | Y                    | Y                   | Y                      | Y                      | Y      |                            |                            |                       |                       |            |
+| FSPICS4         | Y           | Y   | Y                    | Y                   | Y                      | Y                      |        |                            |                            |                       |                       |            |
+| FSPICS5         | Y           | Y   | Y                    | Y                   | Y                      | Y                      | Y      |                            |                            |                       |                       |            |
+| FSPID           | Y           | Y   | (Y)³                 |                     | γ⁴                     | γ⁵                     | Y      |                            | (γ)⁶                        | γ⁷                    | γ⁸                    | Y          |
+| FSPIQ           | Y           |     | (Y)³                 |                     | γ⁴                     | γ⁵                     | Y      |                            | (γ)⁶                        | γ⁷                    | γ⁸                    | Y          |
+| FSPIWP          |             |     |                      |                     |                        | γ⁵                     |        |                            |                            |                       |                       |            |
+| FSPIHD          |             |     |                      |                     |                        | γ⁵                     | Y      |                            |                            |                       | γ⁸                    | Y          |
+
+```
