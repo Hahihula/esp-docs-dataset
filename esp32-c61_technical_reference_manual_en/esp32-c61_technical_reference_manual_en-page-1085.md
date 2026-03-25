@@ -1,0 +1,62 @@
+
+
+```markdown
+Register 29.14. USB_SERIAL_JTAG_INT_RAW_REG (0x0008)
+
+| Bit | Name                                 | Description                                                                 |
+|-----|--------------------------------------|-----------------------------------------------------------------------------|
+| 31  | Reset                                |                                                                             |
+| 30  | USB_SERIAL_JTAG_IN_FLUSH_ZERO_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_FLUSH_ZERO_INT. (R/WTC/SS)       |
+| 29  | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 28  | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 27  | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 26  | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 25  | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 24  | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 23  | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 22  | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 21  | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 20  | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 19  | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 18  | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 17  | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 16  | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 15  | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 14  | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 13  | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 12  | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 11  | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 10  | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 9   | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 8   | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 7   | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 6   | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 5   | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 4   | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 3   | USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)       |
+| 2   | USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)|
+| 1   | USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW | raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS) |
+| 0   | Reset                                |                                                                             |
+
+USB_SERIAL_JTAG_JTAG_IN_FLUSH_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_JTAG_IN_FLUSH_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_SOF_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_SOF_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_SERIAL_OUT_RECV_PKT_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_SERIAL_OUT_RECV_PKT_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_SERIAL_IN_EMPTY_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_SERIAL_IN_EMPTY_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_PID_ERR_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_PID_ERR_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_CRC5_ERR_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_CRC5_ERR_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_CRC16_ERR_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_CRC16_ERR_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_STUFF_ERR_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_STUFF_ERR_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_USB_BUS_RESET_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_USB_BUS_RESET_INT. (R/WTC/SS)
+
+USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT_RAW The raw interrupt status of USB_SERIAL_JTAG_OUT_EPI_ZERO_PAYLOAD_INT. (R/WTC/SS)
+```

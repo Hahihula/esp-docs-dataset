@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 1 ESP-RISC-V CPU  GoBack\n\nRegister 1.110. cpu_gpio_out (0x805)\n\n(reserved)\n\n| 31 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |\n|----|---|---|---|---|---|---|---|---|---|\n|    | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 Reset\n\nCPU_GPIO_OUT Configures GPIO[n (n=0 ~ 7)] output value. It is a CPU CSR to write value (1=high, 0=low) to SoC GPIO pin. The value takes effect only when CPU_GPIO_OEN is set.\nCPU_GPIO_OUT[7:0] correspond to output signals cpu_gpio_out[7:0] in Table 6.12-1 Peripheral Signals via GPIO Matrix.\nCPU_GPIO_OUT[7:0] can only be mapped to GPIO pins through GPIO matrix. For details please refer to Section 6.5 in Chapter GPIO Matrix and IO MUX. (R/W)\n```

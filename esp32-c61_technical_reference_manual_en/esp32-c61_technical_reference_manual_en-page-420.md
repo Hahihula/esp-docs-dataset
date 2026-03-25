@@ -1,0 +1,3 @@
+
+
+```markdown\n| Name | Description | Address | Access |\n|---|---|---|---|\n| SOC_ETM_TASK_ST2_CLR_REG | Task trigger status clear register | 0x01DC | WT |\n| SOC_ETM_TASK_ST3_CLR_REG | Task trigger status clear register | 0x01E4 | WT |\n| SOC_ETM_TASK_ST4_CLR_REG | Task trigger status clear register | 0x01EC | WT |\n| SOC_ETM_CLK_EN_REG | ETM clock enable register | 0x01FO | R/W |\n| Version Register |  |  |  |\n| SOC_ETM_DATE_REG | Version control register | 0x01F4 | R/W |\n```

@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 33 ADC Controller  GoBack\n\nRegister 33.3. APB_SARADC_FILTER_CTRL1_REG (0x0008)\n\nAPB_SARADC_FILTER_FACTOR1 Configures the filter coefficient \\( k \\) for SAR ADC filter 1.\nO: \\( k=0 \\) (i.e., the filter is disabled)\n1: \\( k=2 \\)\n2: \\( k=4 \\)\n3: \\( k=8 \\)\n4: \\( k=16 \\)\n5: \\( k=32 \\)\n6: \\( k=64 \\)  (R/W)\n\nAPB_SARADC_FILTER_FACTORO Configures the filter coefficient \\( k \\) for SAR ADC filter 0 (same as above). (R/W)\n\nRegister 33.4. APB_SARADC_SAR_PATT_TAB1_REG (0x0018)\n\nAPB_SARADC_SAR_PATT_TAB1 Configures pattern 0 ~ 3 (each pattern takes six bits). For details see Section 33.5.8 Pattern Table. (R/W)\n```

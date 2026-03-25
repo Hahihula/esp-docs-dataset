@@ -1,0 +1,34 @@
+
+```markdown
+| Bit | Description                                                                 |
+|-----|-----------------------------------------------------------------------------|
+| MXL | Machine XLEN = 1 (32-bit). (RO)                                             |
+| Z   | Reserved = 0. (RO)                                                          |
+| Y   | Reserved = 0. (RO)                                                          |
+| X   | Non-standard extensions present = 0. (RO)                                  |
+| W   | Reserved = 0. (RO)                                                          |
+| V   | Reserved = 0. (RO)                                                          |
+| U   | User mode implemented = 1. (RO)                                            |
+| T   | Reserved = 0. (RO)                                                          |
+| S   | Supervisor mode implemented = 0. (RO)                                      |
+| R   | Reserved = 0. (RO)                                                          |
+| Q   | Quad-precision floating-point extension = 0. (RO)                          |
+| P   | Reserved = 0. (RO)                                                          |
+| O   | Reserved = 0. (RO)                                                          |
+| N   | User-level interrupts supported = 1. (RO)                                   |
+| M   | Integer Multiply/Divide extension = 1. (RO)                                |
+| L   | Reserved = 0. (RO)                                                          |
+| K   | Reserved = 0. (RO)                                                          |
+| J   | Reserved = 0. (RO)                                                          |
+| I   | RV32I base ISA = 1. (RO)                                                    |
+| H   | Hypervisor extension = 0. (RO)                                              |
+| G   | Additional standard extensions present = 0. (RO)                           |
+| F   | Single-precision floating-point extension = 0. (RO)                         |
+| E   | RV32E base ISA = 0. (RO)                                                    |
+| D   | Double-precision floating-point extension = 0. (RO)                         |
+| C   | Compressed Extension = 1. (RO)                                              |
+| B   | Bit Manip = 1. (RO)                                                         |
+| A   | Atomic Extension = 1. (RO)                                                  |
+
+Register 1.6. misa (0x301)
+```

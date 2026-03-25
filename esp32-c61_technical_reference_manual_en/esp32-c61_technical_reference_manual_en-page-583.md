@@ -1,0 +1,32 @@
+
+
+```markdown
+Register 11.84. PMU_HP_INT_ST_REG (0x0160)
+
+PMU_SOC_WAKEUP_INT_ST
+PMU_SOC_SLEEP_REJECT_INT_ST
+(reserved)
+PMU_SDIO_IDLE_INT_ST
+
+31 30 29 28 27
+0 0 0 0 0 0 0 0 ... 0 0 0 0 Reset
+
+PMU_SDIO_IDLE_INT_ST    The masked interrupt status of PMU_SDIO_IDLE_INT. (RO)
+PMU_SOC_SLEEP_REJECT_INT_ST   The masked interrupt status of PMU_SOC_SLEEP_REJECT_INT.
+(RO)
+PMU_SOC_WAKEUP_INT_ST    The masked interrupt status of PMU_SOC_WAKEUP_INT. (RO)
+
+Register 11.85. PMU_HP_INT_ENA_REG (0x0168)
+
+PMU_SOC_WAKEUP_INT_ENA
+PMU_SOC_SLEEP_REJECT_INT_ENA
+(reserved)
+PMU_SDIO_IDLE_INT_ENA
+
+31 30 29 28 27
+0 0 0 0 0 0 0 0 ... 0 0 0 0 Reset
+
+PMU_SDIO_IDLE_INT_ENA   Write 1 to enable PMU_SDIO_IDLE_INT. (R/W)
+PMU_SOC_SLEEP_REJECT_INT_ENA   Write 1 to enable PMU_SOC_SLEEP_REJECT_INT. (R/W)
+PMU_SOC_WAKEUP_INT_ENA   Write 1 to enable PMU_SOC_WAKEUP_INT. (R/W)
+```

@@ -1,0 +1,19 @@
+
+
+```markdown
+Register 12.28. SYSTIMER_INT_CLR_REG (0x006C)
+
+SYSTIMER_TARGETO_INT_CLR   Write 1 to clear SYSTIMER_TARGETO_INT. (WT)
+SYSTIMER_TARGET1_INT_CLR   Write 1 to clear SYSTIMER_TARGET1_INT. (WT)
+SYSTIMER_TARGET2_INT_CLR   Write 1 to clear SYSTIMER_TARGET2_INT. (WT)
+
+Register 12.29. SYSTIMER_INT_ST_REG (0x0070)
+
+SYSTIMER_TARGETO_INT_ST    The masked interrupt status of SYSTIMER_TARGETO_INT. (RO)
+SYSTIMER_TARGET1_INT_ST    The masked interrupt status of SYSTIMER_TARGET1_INT. (RO)
+SYSTIMER_TARGET2_INT_ST    The masked interrupt status of SYSTIMER_TARGET2_INT. (RO)
+
+Register 12.30. SYSTIMER_REAL_TARGETO_LO_REG (0x0074)
+
+SYSTIMER_TARGETO_LO_RO     Represents the actual target value of COMPO, low 32 bits. (RO)
+```

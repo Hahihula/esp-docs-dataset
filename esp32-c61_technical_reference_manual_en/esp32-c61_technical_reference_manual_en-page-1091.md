@@ -1,0 +1,33 @@
+
+
+```markdown
+Register 29.17. USB_SERIAL_JTAG_INT_CLR_REG (0x0014)
+
+| Bit 31 | Bit 30 | Bit 29 | ... | Bit 8 | Bit 7 | Bit 6 | Bit 5 | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0 |
+|--------|--------|--------|-----|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|        |        |        |     |       |       |       |       |       |       |       | Reset |       |
+
+USB_SERIAL_JTAG_JTAG_IN_FLUSH_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_JTAG_IN_FLUSH_INT. (WT)
+
+USB_SERIAL_JTAG_SOF_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_SOF_INT. (WT)
+
+USB_SERIAL_JTAG_SERIAL_OUT_RECV_PKT_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_SERIAL_OUT_RECV_PKT_INT. (WT)
+
+USB_SERIAL_JTAG_SERIAL_IN_EMPTY_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_SERIAL_IN_EMPTY_INT. (WT)
+
+USB_SERIAL_JTAG_PID_ERR_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_PID_ERR_INT. (WT)
+
+USB_SERIAL_JTAG_CRC5_ERR_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_CRC5_ERR_INT. (WT)
+
+USB_SERIAL_JTAG_CRC16_ERR_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_CRC16_ERR_INT. (WT)
+
+USB_SERIAL_JTAG_STUFF_ERR_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_STUFF_ERR_INT. (WT)
+
+USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (WT)
+
+USB_SERIAL_JTAG_USB_BUS_RESET_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_USB_BUS_RESET_INT. (WT)
+
+USB_SERIAL_JTAG_OUT_EP1_ZERO_PAYLOAD_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_OUT_EP1_ZERO_PAYLOAD_INT. (WT)
+
+USB_SERIAL_JTAG_OUT_EP2_ZERO_PAYLOAD_INT_CLR  Write 1 to clear USB_SERIAL_JTAG_OUT_EP2_ZERO_PAYLOAD_INT. (WT)
+```

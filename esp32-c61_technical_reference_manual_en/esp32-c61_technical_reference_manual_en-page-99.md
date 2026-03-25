@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 1 ESP-RISC-V CPU  GoBack\n\n## 1.10 Debug and Trace Support\n\n### 1.10.1 Debug\n\n#### 1.10.1.1 Overview\nThis section describes how to debug software running on HP core. Debug support is provided through standard JTAG pins and complies to the [RISC-V External Debug Support Version 0.13.2](#) specification. HP core has its own JTAG DTM (debug transport module) in order to connect with its Debug Module. Figure 1.10-1 below shows the main components of External Debug Support.\n```

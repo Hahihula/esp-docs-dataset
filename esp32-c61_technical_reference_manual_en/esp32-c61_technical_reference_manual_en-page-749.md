@@ -1,0 +1,43 @@
+
+
+```markdown
+Chapter 18 Debug Assistant          GoBack
+
+Register 18.31. BUS_MONITOR_CORE_O_INTR_ENA_REG (0x0008)
+
+(reserved) bits 31–0 with various interrupt enable names; Reset value is `0` for all bits.
+
+| Bit 31 | ... | Bit 2 | Bit 1 | Bit 0 |
+|--------|-----|-------|-------|-------|
+|        |     |       |       | Reset |
+
+BUS_MONITOR_CORE_O_AREA_DRAMO_O_RD_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_AREA_DRAMO_O_RD_INT. (R/W)
+
+BUS_MONITOR_CORE_O_AREA_DRAMO_O_WR_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_AREA_DRAMO_O_WR_INT. (R/W)
+
+BUS_MONITOR_CORE_O_AREA_DRAMO_1_RD_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_AREA_DRAMO_1_RD_INT. (R/W)
+
+BUS_MONITOR_CORE_O_AREA_DRAMO_1_WR_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_AREA_DRAMO_1_WR_INT. (R/W)
+
+BUS_MONITOR_CORE_O_AREA_PIF_O_RD_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_AREA_PIF_O_RD_INT. (R/W)
+
+BUS_MONITOR_CORE_O_AREA_PIF_O_WR_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_AREA_PIF_O_WR_INT. (R/W)
+
+BUS_MONITOR_CORE_O_AREA_PIF_1_RD_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_AREA_PIF_1_RD_INT. (R/W)
+
+BUS_MONITOR_CORE_O_AREA_PIF_1_WR_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_AREA_PIF_1_WR_INT. (R/W)
+
+BUS_MONITOR_CORE_O_SP_SPILL_MIN_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_SP_SPILL_MIN_INT. (R/W)
+
+BUS_MONITOR_CORE_O_SP_SPILL_MAX_INTR_ENA Write 1 to enable  
+BUS_MONITOR_CORE_O_SP_SPILL_MAX_INT. (R/W)
+```

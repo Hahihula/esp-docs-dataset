@@ -1,0 +1,53 @@
+
+
+```markdown
+|31|30|29|28|27|
+|---|---|---|---|---|
+|0|0|0| | |
+
+Register 10.25. SOC_ETM_TASK_ST3_CLR_REG (0x01E4)
+
+SOC_ETM_GDMA_AHB_TASK_OUT_START_CHO_ST_CLR
+SOC_ETM_GDMA_AHB_TASK_IN_START_CH1_ST_CLR
+SOC_ETM_GDMA_AHB_TASK_IN_START_CHO_ST_CLR
+(reserved)
+SOC_ETM_I2SO_TASK_STOP_TX_ST_CLR
+SOC_ETM_I2SO_TASK_STOP_RX_ST_CLR
+SOC_ETM_I2SO_TASK_START_TX_ST_CLR
+SOC_ETM_I2SO_TASK_START_RX_ST_CLR
+SOC_ETM_TMPSNR_START_RX_ST_CLR
+SOC_ETM_TMPSNR_STOP_SAMPLE_ST_CLR
+(reserved)
+SOC_ETM_ADC_TASK_STOP_O_ST_CLR
+SOC_ETM_ADC_TASK_START_O_ST_CLR
+SOC_ETM_TG1_TASK_SAMPLEO_ST_CLR
+SOC_ETM_TG1_TASK_CNT_CAP_TIMER1_ST_CLR
+SOC_ETM_TG1_TASK_ALARM_START_TIMER1_ST_CLR
+
+SOC_ETM_TG1_TASK_ALARM_START_TIMER1_ST_CLR Configures whether or not to clear TG1_TASK_ALARM_START_TIMER1 trigger status.
+0: Invalid. No effect
+1: Clear
+(WT)
+
+SOC_ETM_TG1_TASK_CNT_STOP_TIMER1_ST_CLR Configures whether or not to clear TG1_TASK_CNT_STOP_TIMER1 trigger status.
+0: Invalid. No effect
+1: Clear
+(WT)
+
+SOC_ETM_TG1_TASK_CNT_RELOAD_TIMER1_ST_CLR Configures whether or not to clear TG1_TASK_CNT_RELOAD_TIMER1 trigger status.
+0: Invalid. No effect
+1: Clear
+(WT)
+
+SOC_ETM_TG1_TASK_CNT_CAP_TIMER1_ST_CLR Configures whether or not to clear TG1_TASK_CNT_CAP_TIMER1 trigger status.
+0: Invalid. No effect
+1: Clear
+(WT)
+
+SOC_ETM_ADC_TASK_SAMPLEO_ST_CLR Configures whether or not to clear ADC_TASK_SAMPLEO trigger status.
+0: Invalid. No effect
+1: Clear
+(WT)
+
+Continued on the next page...
+```

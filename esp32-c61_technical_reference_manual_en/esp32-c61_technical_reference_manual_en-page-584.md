@@ -1,0 +1,9 @@
+
+
+```markdown
+Register 11.86. PMU_HP_INT_CLR_REG (0x016C)
+
+PMU_SDIO_IDLE_INT_CLR    Write 1 to clear PMU_SDIO_IDLE_INT. (WT)
+PMU_SOC_SLEEP_REJECT_INT_CLR   Write 1 to clear PMU_SOC_SLEEP_REJECT_INT. (WT)
+PMU_SOC_WAKEUP_INT_CLR    Write 1 to clear PMU_SOC_WAKEUP_INT. (WT)
+```
