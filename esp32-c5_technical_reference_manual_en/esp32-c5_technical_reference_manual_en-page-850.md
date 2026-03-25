@@ -1,0 +1,4 @@
+
+
+```markdown\nFigure 21.3-2. Brown-out Reset Workflow\n```\n\nRegisters for controlling related signals are described below.\n* `bod_mode0_en`: LP_ANA_BOD_MODEO_INTR_ENA\n* `bod_mode0_rst_en`: LP_ANA_BOD_MODEO_RESET_ENA\n* `bod_mode0_rst_sel`: LP_ANA_BOD_MODEO_RESET_SEL configures the reset type:\n  - 0: chip reset\n  - 1: system reset\nFor more information regarding chip reset and system reset, please refer to Chapter 9 Reset and Clock.\n* `bod_mode1_sel`: The first bit of LP_ANA_ANA_FIB_ENA.\n* `bod_mode1_rst_en`: LP_ANA_BOD_MODE1_RESET_ENA\n\n## 21.3.3 Voltage Glitch Detectors\nFigure 21.3-3 shows the structure of the voltage glitch detectors.
+```

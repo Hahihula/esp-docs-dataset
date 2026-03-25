@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 20 Debug Assistant\n\nGoBack\n\n- If no, the address space to read is MEM_MONITOR_LOG_MEM_START_REG ~ MEM_MONITOR_LOG_MEM_CURRENT_ADDR_REG – 4.\n- If yes and the loop mode is enabled, the address space is MEM_MONITOR_LOG_MEM_CURRENT_ADDR_REG ~ MEM_MONITOR_LOG_MEM_END_REG and MEM_MONITOR_LOG_MEM_START_REG ~ MEM_MONITOR_LOG_MEM_CURRENT_ADDR_REG – 4.\n- If yes and loop mode is not enabled, the address space is MEM_MONITOR_LOG_MEM_START_REG ~ MEM_MONITOR_LOG_MEM_END_REG.\n\n• Read and parse data from the starting address. Read 32 bits at a time.\nAfter packet parsing is completed, clear the MEM_MONITOR_LOG_MEM_FULL_FLAG flag bit by setting MEM_MONITOR_CLR_LOG_MEM_FULL_FLAG to 1.\n```

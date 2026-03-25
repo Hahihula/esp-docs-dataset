@@ -1,0 +1,23 @@
+
+
+```markdown
+Register 2.7. mideleg (0x303)
+
+mideleg All bits are hardwired to 0 since only CLIC mode is available. (RO)
+
+
+Register 2.8. mie (0x304)
+
+mie All bits are hardwired to 0 since only CLIC mode is available. (RO)
+
+
+Register 2.9. mtvec (0x305)
+
+BASE Configures the higher 26 bits of exception and non-vectored machine mode interrupt base address aligned to 64 bytes. (R/W)
+MODE Represents whether machine mode interrupts are operating in CLIC mode or vectored/non-vectored CLINT mode. Only CLIC mode 0x3 is available. (RO)
+
+
+Register 2.10. mvtv (0x307)
+
+BASE Configures the higher 26 bits of CLIC machine mode interrupt vector base address aligned to 64 bytes. (R/W)
+```

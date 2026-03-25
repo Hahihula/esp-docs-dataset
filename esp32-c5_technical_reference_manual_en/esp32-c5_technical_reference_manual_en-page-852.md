@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 21 Power Supply Detector\nGoBack\n\nNote:\nFor definitions of interrupt, interrupt signal, interrupt source, and their correlations, please refer to Chapter 11 Interrupt Matrix > Section 11.2 Terminology.\n\nEach interrupt source can be configured by a common set of registers that are described in Section Interrupt Configuration Registers. The specific registers can be found in Section 21.5 Register Summary.\n\nEpressif Systems    852    ESP32-C5 TRM (Version 1.0)\n[Submit Documentation Feedback](#)\n```

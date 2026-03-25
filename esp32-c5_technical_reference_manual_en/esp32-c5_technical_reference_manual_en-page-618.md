@@ -1,0 +1,4 @@
+
+
+```markdown\n| Name | Description | Address | Access |\n|:---------------------------|:----------------------------------------------------------|:---------|:--------|\n| LP_AON_STORE9_REG | Always-on register9 | 0x0024 | R/W |\n| LP_AON_SYS_CFG_REG | Software system reset | 0x0034 | WT |\n| LP_AON_CPUCOREO_CFG_REG | CPU startup address configuration register | 0x0038 | varies |\n```\n\n## 13.10 Registers\n### 13.10.1 PMU Registers\nThe addresses in this section are relative to the PMU base address provided in Table 6.3-2 in Chapter 6 System and Memory.\nFor how to program reserved fields, please refer to Section Programming Reserved Register Field.
+```

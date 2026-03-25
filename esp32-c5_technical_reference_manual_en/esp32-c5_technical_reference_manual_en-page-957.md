@@ -1,0 +1,4 @@
+
+
+```markdown\n| Memory                  | Size (byte) | Starting Address* | Ending Address* | Access |\n|-------------------------|-------------|-------------------|-----------------|--------|\n| ECDSA_MEM_M             | 128         | 0x280             | 0x2FF           | R/W    |\n| ECDSA_MEM_R             | 48          | 0x3E0             | 0x40F           | R/W    |\n| ECDSA_MEM_S             | 48          | 0x410             | 0x43F           | R/W    |\n| ECDSA_MEM_Z             | 48          | 0x440             | 0x46F           | R/W    |\n| ECDSA_MEM_Qx            | 48          | 0x470             | 0x49F           | R/W    |\n| ECDSA_MEM_Qy            | 48          | 0x4A0             | 0x4CF           | R/W    |\n```\n\n* Address offset related to the ECDSA accelerator base address is provided in Table 6.3-2 in Chapter 6 System and Memory.
+```

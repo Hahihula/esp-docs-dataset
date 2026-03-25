@@ -1,0 +1,39 @@
+
+
+```markdown
+- 0: Compress or decompress the data
+- 1: Do not compress or decompress the data
+
+Configure I2S_RX_PCM_CONF:
+
+- 0: Decompress the data using A-law
+- 1: Compress the data using A-law
+- 2: Decompress the data using μ-law
+- 3: Compress the data using μ-law
+
+At this point, the data format control is completed. Data then is stored into memory via GDMA.
+
+## 35.11 Event Task Matrix Feature
+
+ESP32-C5 I2S supports the Event Task Matrix (ETM) function, which allows I2S's ETM tasks to be triggered by any peripherals' ETM events, or I2S's ETM events to trigger any peripherals' ETM tasks. This section introduces the ETM tasks and events related to I2S. For more information, please refer to Chapter 12 Event Task Matrix (ETM).
+
+I2S can receive the following ETM tasks:
+
+- I2SO_TASK_START_TX: Enables I2S TX for data transfer.
+- I2SO_TASK_START_RX: Enables I2S RX for data transfer.
+- I2SO_TASK_STOP_TX: Stops I2S TX data transfer.
+- I2SO_TASK_STOP_RX: Stops I2S RX data transfer.
+
+I2S can generate the following ETM events:
+
+- I2SO_EVT_TX_DONE: Indicates that I2S TX has completed data transmission. Triggered when all data in the TX FIFO has been sent.
+- I2SO_EVT_RX_DONE: Can be triggered in different ways depending on the configured value of I2S_RX_STOP_MODE:
+    - 0: Will not be triggered;
+    - 1: When triggered, indicates that the number of bytes received by I2S RX is greater than the receive length value configured by I2S_RX_EOF_NUM_REG;
+    - 2: When triggered, indicates that the GDMA RX FIFO is full.
+
+- I2SO_EVT_X_WORDS_SENT: Indicates that the word number sent by I2S TX is equal to or larger than the value set by I2S_ETM_TX_SEND_WORD_NUM.
+- I2SO_EVT_X_WORDS_RECEIVED: Indicates that the word number received by I2S RX is equal to or larger than the value set by I2S_ETM_RX_RECEIVE_WORD_NUM.
+
+In practical applications, I2S's ETM events can trigger its own ETM tasks. For example, the I2S_EVT_X_WORDS_SENT event can trigger the I2S_TASK_STOP_TX task, and in this way stop the I2S operation through ETM.
+```

@@ -1,0 +1,8 @@
+
+
+```markdown
+Register 7.45. EFUSE_INT_CLR_REG (0x01E8)
+
+EFUSE_READ_DONE_INT_CLR   Write 1 to clear EFUSE_READ_DONE_INT. (WT)
+EFUSE_PGM_DONE_INT_CLR    Write 1 to clear EFUSE_PGM_DONE_INT. (WT)
+```

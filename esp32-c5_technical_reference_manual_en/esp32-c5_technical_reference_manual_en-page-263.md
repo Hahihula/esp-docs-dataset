@@ -1,0 +1,4 @@
+
+
+```markdown\n| Internal Interrupt Source | Trigger Condition                  | Interrupt Signal |\n|----------------------------|------------------------------------|------------------|\n| EFUSE_PGM_DONE_INT         | Programming of eFuse completes     | EFUSE_INT        |\n| EFUSE_READ_DONE_INT        | Reading of eFuse completes         |                  |\n```\n\n**Note:**\nFor definitions of interrupt, interrupt signal, interrupt source, and their correlations, please refer to Chapter 11 Interrupt Matrix > Section 11.2 Terminology.\n\nEach interrupt source can be configured by a common set of registers that are described in Section Interrupt Configuration Registers. The specific registers can be found in Section 7.5 Register Summary.
+```

@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 41 Motor Control PWM (MCPWM) [GoBack](#)\n\n![Count-Up, Pulse Placement Asymmetric Waveform with Independent Modulation on PWMxA](figure_image_url)  \nFigure 41.3-15. Count-Up, Pulse Placement Asymmetric Waveform with Independent Modulation on PWMxA\n\nPulses may be generated anywhere within the PWM cycle (zero to period).  \nPWMxA’s high time duty is proportional to (B – A).\n\n\\( Period = (MCPWM_TIMERn\_PERIOD + 1) \\times TPT_{clk} \\)\n```

@@ -1,0 +1,4 @@
+
+
+```markdown\n| Name          | Description                          | Address | Access |\n|---------------|--------------------------------------|---------|--------|\n| dcsr          | Debug Control and Status             | 0x7B0   | R/W    |\n| dpc           | Debug PC                             | 0x7B1   | R/W    |\n| dscratch0     | Debug Scratch Register 0             | 0x7B2   | R/W    |\n| dscratch1     | Debug Scratch Register 1             | 0x7B3   | R/W    |\n```\n\nAll debug module registers are implemented in accordance with the specification RISC-V External Debug Support Version 0.13. For more information, refer to the specification.\n\n### 4.4.4 Registers\nThe following is a detailed description of the debug CSR supported by the LP CPU.\nFor how to program reserved fields, please refer to section Programming Reserved Register Field.
+```

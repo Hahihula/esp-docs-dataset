@@ -1,0 +1,35 @@
+
+
+```markdown
+Register 46.13. APB_SARADC_INT_RAW_REG (0x0044)
+
+APB_SARADC_ADC_DONE_INT_RAW
+(reserved)
+APB_SARADC_THRES0_LOW_INT_RAW
+APB_SARADC_THRES0_HIGH_INT_RAW
+APB_SARADC_THRES1_LOW_INT_RAW
+APB_SARADC_THRES1_HIGH_INT_RAW
+
+31 30 29 28 27 26 25 24
+0 0 0 0 0 0 0 0
+
+(reserved)
+
+APB_SARADC_TSENS_INT_RAW The raw interrupt status of the APB_SARADC_TSENS_INT interrupt.
+(R/WTC/SS)
+
+APB_SARADC_THRES1_LOW_INT_RAW The raw interrupt status of the
+APB_SARADC_THRES1_LOW_INT interrupt. (R/WTC/SS)
+
+APB_SARADC_THRES0_LOW_INT_RAW The raw interrupt status of the
+APB_SARADC_THRES0_LOW_INT interrupt. (R/WTC/SS)
+
+APB_SARADC_THRES1_HIGH_INT_RAW The raw interrupt status of the
+APB_SARADC_THRES1_HIGH_INT interrupt. (R/WTC/SS)
+
+APB_SARADC_THRES0_HIGH_INT_RAW The raw interrupt status of the
+APB_SARADC_THRES0_HIGH_INT interrupt. (R/WTC/SS)
+
+APB_SARADC_ADC_DONE_INT_RAW The raw interrupt status of the
+APB_SARADC_ADC_DONE_INT interrupt. (R/WTC/SS)
+```

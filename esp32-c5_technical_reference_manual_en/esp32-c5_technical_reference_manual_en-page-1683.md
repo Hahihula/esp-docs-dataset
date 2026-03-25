@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 44 BitScrambler\nGoBack\n\nRegister 44.7. BITS scrambler_RX_LUT_CFGO_REG (0x0018)\n\n| 31 | 12 | 11 | 10 | ... | 0 |\n|----|----|----|----|-----|---|\n|    |    |    |    |     |   |\n| Reset |\n\nBITS scrambler_RX_LUT_IDX Configures where in LUT RAM to access. Measurement unit: word size configured by BITS scrambler_RX_LUT_MODE. (R/W)\n\nBITS scrambler_RX_LUT_MODE Configures the word size of LUT RAM for BitScrambler programs.\nO: 1 byte\n1: 2 bytes\n2: 4 bytes\n3: Reserved\n(R/W)\n\nRegister 44.8. BITS scrambler_RX_LUT_CFG1_REG (0x001C)\n\n| 31 | ... | 28 |\n|----|-----|----|\n|    |     | Reset |\n\nBITS scrambler_RX_LUT Configures the LUT entry to be accessed at the position specified by BITS scrambler_RX_LUT_CFGO_REG. (R/W)\n```

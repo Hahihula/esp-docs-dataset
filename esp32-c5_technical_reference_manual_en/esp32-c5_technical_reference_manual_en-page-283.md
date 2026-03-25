@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 7 eFuse Controller (EFUSE)\n\nRegister 7.20. EFUSE_RD_KEY3_DATAn_REG (n: 0-7) (0x00FC+0x4*n)\n\n```\n31  0\n|\n| 0x000000 Reset\n```\nEFUSE_KEY3_DATA_n Represents the nth 32-bit of key3. (RO)\n\nRegister 7.21. EFUSE_RD_KEY4_DATAn_REG (n: 0-7) (0x011C+0x4*n)\n\n```\n31  0\n|\n| 0x000000 Reset\n```\nEFUSE_KEY4_DATA_n Represents the nth 32 bits of key4. (RO)\n\nRegister 7.22. EFUSE_RD_KEY5_DATAn_REG (n: 0-7) (0x013C+0x4*n)\n\n```\n31  0\n|\n| 0x000000 Reset\n```\nEFUSE_KEY5_DATA_n Represents the nth 32-bit of key5. (RO)\n\nRegister 7.23. EFUSE_RD_SYS_PART2_DATAn_REG (n: 0-7) (0x015C+0x4*n)\n\n```\n31  0\n|\n| 0x000000 Reset\n```\nEFUSE_SYS_DATA_PART2_n Represents the nth 32 bits of the 2nd part of system data. (RO)\n```

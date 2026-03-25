@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 41 Motor Control PWM (MCPWM)  GoBack\n\nPeriod = 4  \nDTEA = CLEAR  \nUTEA = SET  \n\n![Figure 41.3-13. Symmetrical Waveform in Count-Up-Down Mode](image-placeholder)\n\nPWM Timer  \nPWM Timer Direction  \n\nCase 1: A = 4, 0% Duty  PWMxA/PWMxB  \nCase 2: A = 3, 25% Duty  PWMxA/PWMxB  \nCase 3: A = 2, 50% Duty  PWMxA/PWMxB  \nCase 4: A = 1, 75% Duty  PWMxA/PWMxB  \nCase 5: A = 0, 100% Duty  PWMxA/PWMxB  \n\nFigure 41.3-13. Symmetrical Waveform in Count-Up-Down Mode\n\nThe PWM waveforms in Figures 41.3-14 to 41.3-17 show some common PWM generator configurations.\n\nEspressif Systems  1540  ESP32-C5 TRM (Version 1.0)  Submit Documentation Feedback\n```

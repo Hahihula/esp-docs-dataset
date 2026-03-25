@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 40 LED PWM Controller (LEDC)\nGoBack\n\n## 40.10 Registers\nThe addresses in this section are relative to LED PWM Controller base address provided in Table 6.3-2 in Chapter 6 System and Memory.\nFor how to program reserved fields, please refer to Section Programming Reserved Register Field.\n\nEspressif Systems    1512    ESP32-C5 TRM (Version 1.0)\n[Submit Documentation Feedback](#)\n```

@@ -31,6 +31,7 @@ The PDFs are splited by pages.
   * [esp8685-wroom-03_datasheet_en](./esp8685-wroom-03_datasheet_en) - ESP8685-WROOM-03 Datasheet
   * [esp32-c3_technical_reference_manual_en](./esp32-c3_technical_reference_manual_en) - ESP32-C3 Technical Reference Manual
   * [esp32-c6_technical_reference_manual_en](./esp32-c6_technical_reference_manual_en) - ESP32-C6 Technical Reference Manual
+  * [esp32-c5_technical_reference_manual_en](./esp32-c5_technical_reference_manual_en) - ESP32-C5 Technical Reference Manual
 
 ## ESP-IDF Documentation
 

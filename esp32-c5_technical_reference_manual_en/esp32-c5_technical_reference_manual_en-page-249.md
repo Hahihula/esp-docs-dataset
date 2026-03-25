@@ -1,0 +1,4 @@
+
+
+```markdown\nFigure 7.3-1. Data Flow in eFuse\n```\n\nData in eFuse memory is organized in 11 blocks (BLOCK0 ~ BLOCK10).\n\nBLOCK0 holds most parameters for software and hardware uses.\n\nTable 7.3-1 lists all the parameters accessible (readable and usable) to users in BLOCK0 and their bit widths, accessibility by hardware, write protection, and brief function description. For more description on the parameters, please click the link of the corresponding parameter in the table.\nThe EFUSE_WR_DIS parameter is used to control write protection of other parameters in BLOCK0–BLOCK10. EFUSE_RD_DIS is used to control read protection of BLOCK4 ~ BLOCK10. For more information on these two parameters, please see Section 7.3.1.1 and Section 7.3.1.2.
+```
