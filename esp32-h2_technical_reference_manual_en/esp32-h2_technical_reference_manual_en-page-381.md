@@ -1,0 +1,49 @@
+
+
+```markdown
+| Name                                       | Description                          | Address   | Access |
+|--------------------------------------------|--------------------------------------|-----------|--------|
+| SOC_ETM_CH15_EVT_ID_REG                    | Channel15 event ID register          | 0x0090    | R/W    |
+| SOC_ETM_CH15_TASK_ID_REG                   | Channel15 task ID register           | 0x0094    | R/W    |
+| SOC_ETM_CH16_EVT_ID_REG                    | Channel16 event ID register          | 0x0098    | R/W    |
+| SOC_ETM_CH16_TASK_ID_REG                   | Channel16 task ID register           | 0x009C    | R/W    |
+| SOC_ETM_CH17_EVT_ID_REG                    | Channel17 event ID register          | 0x00A0    | R/W    |
+| SOC_ETM_CH17_TASK_ID_REG                   | Channel17 task ID register           | 0x00A4    | R/W    |
+| SOC_ETM_CH18_EVT_ID_REG                    | Channel18 event ID register          | 0x00A8    | R/W    |
+| SOC_ETM_CH18_TASK_ID_REG                   | Channel18 task ID register           | 0x00AC    | R/W    |
+| SOC_ETM_CH19_EVT_ID_REG                    | Channel19 event ID register          | 0x00B0    | R/W    |
+| SOC_ETM_CH19_TASK_ID_REG                   | Channel19 task ID register           | 0x00B4    | R/W    |
+| SOC_ETM_CH20_EVT_ID_REG                    | Channel20 event ID register          | 0x00B8    | R/W    |
+| SOC_ETM_CH20_TASK_ID_REG                   | Channel20 task ID register           | 0x00BC    | R/W    |
+| SOC_ETM_CH21_EVT_ID_REG                    | Channel21 event ID register          | 0x00C0    | R/W    |
+| SOC_ETM_CH21_TASK_ID_REG                   | Channel21 task ID register           | 0x00C4    | R/W    |
+| SOC_ETM_CH22_EVT_ID_REG                    | Channel22 event ID register          | 0x00C8    | R/W    |
+| SOC_ETM_CH22_TASK_ID_REG                   | Channel22 task ID register           | 0x00CC    | R/W    |
+| SOC_ETM_CH23_EVT_ID_REG                    | Channel23 event ID register          | 0x00D0    | R/W    |
+| SOC_ETM_CH23_TASK_ID_REG                   | Channel23 task ID register           | 0x00D4    | R/W    |
+| SOC_ETM_CH24_EVT_ID_REG                    | Channel24 event ID register          | 0x00D8    | R/W    |
+| SOC_ETM_CH24_TASK_ID_REG                   | Channel24 task ID register           | 0x00DC    | R/W    |
+| SOC_ETM_CH25_EVT_ID_REG                    | Channel25 event ID register          | 0x00E0    | R/W    |
+| SOC_ETM_CH25_TASK_ID_REG                   | Channel25 task ID register           | 0x00E4    | R/W    |
+| SOC_ETM_CH26_EVT_ID_REG                    | Channel26 event ID register          | 0x00E8    | R/W    |
+| SOC_ETM_CH26_TASK_ID_REG                   | Channel26 task ID register           | 0x00EC    | R/W    |
+| SOC_ETM_CH27_EVT_ID_REG                    | Channel27 event ID register          | 0x00F0    | R/W    |
+| SOC_ETM_CH27_TASK_ID_REG                   | Channel27 task ID register           | 0x00F4    | R/W    |
+| SOC_ETM_CH28_EVT_ID_REG                    | Channel28 event ID register          | 0x00F8    | R/W    |
+| SOC_ETM_CH28_TASK_ID_REG                   | Channel28 task ID register           | 0x00FC    | R/W    |
+| SOC_ETM_CH29_EVT_ID_REG                    | Channel29 event ID register          | 0x0100    | R/W    |
+| SOC_ETM_CH29_TASK_ID_REG                   | Channel29 task ID register           | 0x0104    | R/W    |
+| SOC_ETM_CH30_EVT_ID_REG                    | Channel30 event ID register          | 0x0108    | R/W    |
+| SOC_ETM_CH30_TASK_ID_REG                   | Channel30 task ID register           | 0x010C    | R/W    |
+| SOC_ETM_CH31_EVT_ID_REG                    | Channel31 event ID register          | 0x0110    | R/W    |
+| SOC_ETM_CH31_TASK_ID_REG                   | Channel31 task ID register           | 0x0114    | R/W    |
+| SOC_ETM_CH32_EVT_ID_REG                    | Channel32 event ID register          | 0x0118    | R/W    |
+| SOC_ETM_CH32_TASK_ID_REG                   | Channel32 task ID register           | 0x011C    | R/W    |
+| SOC_ETM_CH33_EVT_ID_REG                    | Channel33 event ID register          | 0x0120    | R/W    |
+| SOC_ETM_CH33_TASK_ID_REG                   | Channel33 task ID register           | 0x0124    | R/W    |
+| SOC_ETM_CH34_EVT_ID_REG                    | Channel34 event ID register          | 0x0128    | R/W    |
+| SOC_ETM_CH34_TASK_ID_REG                   | Channel34 task ID register           | 0x012C    | R/W    |
+| SOC_ETM_CH35_EVT_ID_REG                    | Channel35 event ID register          | 0x0130    | R/W    |
+| SOC_ETM_CH35_TASK_ID_REG                   | Channel35 task ID register           | 0x0134    | R/W    |
+| SOC_ETM_CH36_EVT_ID_REG                    | Channel36 event ID register          | 0x0138    | R/W    |
+```

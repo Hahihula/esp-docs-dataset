@@ -1,0 +1,16 @@
+
+
+```markdown
+Register 35.16. LEDC_INT_ENA_REG (0x00C8)
+
+LEDC_TIMERx_OVF_INT_ENA    Write 1 to enable LEDC_TIMERx_OVF_INT. (R/W)
+LEDC_DUTY_CHNG_END_CHn_INT_ENA   Write 1 to enable LEDC_DUTY_CHNG_END_CHn_INT.
+(R/W)
+LEDC_OVF_CNT_CHn_INT_ENA     Write 1 to enable LEDC_OVF_CNT_CHn_INT. (R/W)
+
+Register 35.17. LEDC_INT_CLR_REG (0x00CC)
+
+LEDC_TIMERx_OVF_INT_CLR      Write 1 to clear LEDC_TIMERx_OVF_INT. (WT)
+LEDC_DUTY_CHNG_END_CHn_INT_CLR   Write 1 to clear LEDC_DUTY_CHNG_END_CHn_INT. (WT)
+LEDC_OVF_CNT_CHn_INT_CLR     Write 1 to clear LEDC_OVF_CNT_CHn_INT. (WT)
+```

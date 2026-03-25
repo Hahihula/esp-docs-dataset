@@ -1,0 +1,11 @@
+
+
+```markdown
+| Peripheral | Source Clock XTAL_CLK 32 MHz | Derived Clock PLL_CLK | PLL_F96M_CLK 96 MHz | PLL_F64M_CLK 64 MHz | PLL_F48M_CLK 48 MHz | RC_FAST_CLK 8 MHz | RC_SLOW_CLK 130 kHz | OSC_SLOW_CLK 32 kHz | XTAL32K_CLK 32 kHz | PLL_LP_CLK 8 MHz | HP_ROOT_CLK 96 MHz/64 MHz/32 MHz/8 MHz | CRYPTO_CLK | APB_CLK | AHB_CLK | CPU_CLK | LP_DYN_FAST_CLK | LP_DYN_SLOW_CLK | XTAL_D2_CLK 16 MHz | LP_FAST_CLK | Source Clock from IO |
+|:------------------------------------------|:------------------------------|:-----------------------|:--------------------|:--------------------|:---------------------|:------------------|:---------------------|:---------------------|:-------------------|:-----------------|:-----------------------------------------|:-----------|:--------|:--------|:---------|:----------------------|:----------------------|:---------------------|:-------------|:---------------------|
+| UHCI Debug (ASSIST_DEBUG, MEM_MONITOR) |                             |                       |                    |                    |                     |                  |                     |                     |                   |                 |                                        |            |         |         |         |                    |                    |                   |             |                     |
+| RISC-V Trace (TRACE) Encoder |                             |                       |                    |                    |                     |                  |                     |                     |                   |                 |                                        |            |         |         |         |                    |                    |                   |             |                     |
+| Interrupt priority registers (INTPRI) |                             |                       |                    |                    |                     |                  |                     |                     |                   |                 |                                        |            |         |         |         |                    |                    |                   |             |                     |
+
+Table 7.2-5. Derived LP Clock Source
+```

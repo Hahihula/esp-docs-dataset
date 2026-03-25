@@ -1,0 +1,12 @@
+
+
+```markdown
+Register 40.15: APB_SARADC_INT_CLR_REG (0x004C)
+
+APB_SARADC_TSENS_INT_CLR   Write 1 to clear the APB_SARADC_TSENS_INT interrupt. (WT)
+APB_SARADC_THRES1_LOW_INT_CLR   Write 1 to clear the APB_SARADC_THRES1_LOW_INT interrupt. (WT)
+APB_SARADC_THRESO_LOW_INT_CLR   Write 1 to clear the APB_SARADC_THRESO_LOW_INT interrupt. (WT)
+APB_SARADC_THRES1_HIGH_INT_CLR   Write 1 to clear the APB_SARADC_THRES1_HIGH_INT interrupt. (WT)
+APB_SARADC_THRESO_HIGH_INT_CLR   Write 1 to clear the APB_SARADC_THRESO_HIGH_INT interrupt. (WT)
+APB_SARADC_ADC_DONE_INT_CLR   Write 1 to clear the APB_SARADC_ADC_DONE_INT interrupt. (WT)
+```

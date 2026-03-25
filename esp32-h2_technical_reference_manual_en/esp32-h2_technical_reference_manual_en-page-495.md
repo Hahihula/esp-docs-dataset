@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 14 Watchdog Timers (WDT)          GoBack\n\n## 14.6 Registers\n\nMWDT registers are part of the timer submodule and are described in Section 13.5 Register Summary in Chapter 13 Timer Group (TIMG).\n\nThe addresses of RWDT and SWD registers in this section are relative to RTC_WDT base address provided in Table 4.3-2 in Chapter 4 System and Memory.\n\nEspressif Systems  495  ESP32-H2 TRM (Version 1.1)  Submit Documentation Feedback\n```

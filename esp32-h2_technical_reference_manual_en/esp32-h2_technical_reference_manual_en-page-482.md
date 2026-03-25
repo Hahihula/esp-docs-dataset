@@ -1,0 +1,15 @@
+
+
+```markdown
+Register 13.16. TIMG_WDTFEED_REG (0x0060)
+
+| Bit 31 | Field Name        | Description                                                                 |
+|--------|-------------------|-----------------------------------------------------------------------------|
+|   31    | TIMG_WDT_FEED     | Write any value to feed the MWDT. Valid only when write protection is disabled. (WT) |
+
+Register 13.17. TIMG_WDTWPROTECT_REG (0x0064)
+
+| Bit 31 | Field Name        | Description                                                                 |
+|--------|-------------------|-----------------------------------------------------------------------------|
+|   31    | TIMG_WDT_WKEY     | Configures a different value than its reset value to enable write protection. (R/W) |
+```

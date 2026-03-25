@@ -1,0 +1,3 @@
+
+
+```markdown\n| Name | Description | Address | Access |\n| :------------------------ | :------------------------------------------ | :------- | :------ |\n| UHCI_INT_ENA_REG | Interrupt enable bits | 0x000C | R/W |\n| UHCI_INT_CLR_REG | Interrupt clear bits | 0x0010 | WT |\n| **UHCI Status Register** |  |  |  |\n| UHCI_STATE0_REG | UHCI receive status | 0x0018 | RO |\n| UHCI_STATE1_REG | UHCI transmit status | 0x001C | RO |\n| UHCI_RX_HEAD_REG | UHCI packet header register | 0x002C | RO |\n| **Version Register** |  |  |  |\n| UHCI_DATE_REG | UHCI version control register | 0x0080 | R/W |\n```

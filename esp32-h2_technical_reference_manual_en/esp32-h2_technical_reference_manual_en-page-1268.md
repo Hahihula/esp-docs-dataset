@@ -1,0 +1,8 @@
+
+
+```markdown
+| Date       | Version | Release notes                                                                                                                                                                                                 |
+|------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2023-06-29 | v0.2    | Added the following chapter:<ul><li>Chapter 2 RISC-V Trace Encoder (TRACE)</li><li>Chapter 7 Reset and Clock</li><li>Chapter 20 ECC Accelerator (ECC)</li><li>Chapter 31 I2S Controller (I2S)</li></ul>Updated the following chapter:<ul><li>Chapter 1 ESP-RISC-V CPU: Fixed interrupt IDs</li><li>Chapter 5 eFuse Controller (EFUSE): Updated the description of register EFUSE_SEC_DPA_LEVEL</li><li>Chapter 9 Interrupt Matrix (INTMTX): Removed interrupt source MSPI_INTR and its mapping register, as the MSPI module does not have detailed description</li><li>Chapter 15 Permission Control (PMS): Added EX_MEM in Table 15.1-1 and Figure 15.1-1, removed external memory from Section 15.2 Features as APM does not have access management to it</li></ul>Added Section Programming Reserved Register Field |
+| 2023-05-24 | v0.1    | Preliminary release                                                                                                                                                                                             |
+```

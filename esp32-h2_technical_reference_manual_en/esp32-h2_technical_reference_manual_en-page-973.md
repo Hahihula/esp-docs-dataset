@@ -1,0 +1,42 @@
+
+```markdown
+Register 33.13. USB_SERIAL_JTAG_INT_ST_REG (0x000C)
+
+USB_SERIAL_JTAG_JTAG_IN_FLUSH_INT_ST   The masked interrupt status of USB_SERIAL_
+JTAG_JTAG_IN_FLUSH_INT. (RO)
+
+USB_SERIAL_JTAG_SOF_INT_ST   The masked interrupt status of USB_SERIAL_JTAG_SOF_INT.
+(RO)
+
+USB_SERIAL_JTAG_SERIAL_OUT_RECV_PKT_INT_ST   The masked interrupt status of the
+USB_SERIAL_JTAG_SERIAL_OUT_RECV_PKT_INT. (RO)
+
+USB_SERIAL_JTAG_SERIAL_IN_EMPTY_INT_ST   The masked interrupt status of USB_SERIAL_
+JTAG_SERIAL_IN_EMPTY_INT. (RO)
+
+USB_SERIAL_JTAG_PID_ERR_INT_ST   The masked interrupt status of USB_SERIAL_JTAG_
+PID_ERR_INT. (RO)
+
+USB_SERIAL_JTAG_CRC5_ERR_INT_ST   The masked interrupt status of USB_SERIAL_JTAG_
+CRC5_ERR_INT. (RO)
+
+USB_SERIAL_JTAG_CRC16_ERR_INT_ST   The masked interrupt status of USB_SERIAL_JTAG_
+CRC16_ERR_INT. (RO)
+
+USB_SERIAL_JTAG_STUFF_ERR_INT_ST   The masked interrupt status of USB_SERIAL_JTAG_
+STUFF_ERR_INT. (RO)
+
+USB_SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT_ST   The masked interrupt status of USB_
+SERIAL_JTAG_IN_TOKEN_REC_IN_EP1_INT. (RO)
+
+USB_SERIAL_JTAG_USB_BUS_RESET_INT_ST   The masked interrupt status of USB_SERIAL_
+JTAG_USB_BUS_RESET_INT. (RO)
+
+USB_SERIAL_JTAG_OUT_EP1_ZERO_PAYLOAD_INT_ST   The masked interrupt status of USB_
+SERIAL_JTAG_OUT_EP1_ZERO_PAYLOAD_INT (RO)
+
+USB_SERIAL_JTAG_OUT_EP2_ZERO_PAYLOAD_INT_ST   The masked interrupt status of USB_
+SERIAL_JTAG_OUT_EP2_ZERO_PAYLOAD_INT. (RO)
+
+Continued on the next page...
+```

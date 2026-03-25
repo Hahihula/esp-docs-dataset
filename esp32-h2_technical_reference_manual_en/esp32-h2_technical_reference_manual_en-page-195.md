@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 5 eFuse Controller (EFUSE)\nGoBack\n\nRegister 5.72. EFUSE_RD_KEY4_DATA0_REG (0x011C)\n\n```\n31  0\n| 0x000000 Reset |\n```\nEFUSE_KEY4_DATA0 Represents the zeroth 32 bits of KEY4. (RO)\n\nRegister 5.73. EFUSE_RD_KEY4_DATA1_REG (0x0120)\n\n```\n31  0\n| 0x000000 Reset |\n```\nEFUSE_KEY4_DATA1 Represents the 1st 32 bits of KEY4. (RO)\n\nRegister 5.74. EFUSE_RD_KEY4_DATA2_REG (0x0124)\n\n```\n31  0\n| 0x000000 Reset |\n```\nEFUSE_KEY4_DATA2 Represents the 2nd 32 bits of KEY4. (RO)\n\nRegister 5.75. EFUSE_RD_KEY4_DATA3_REG (0x0128)\n\n```\n31  0\n| 0x000000 Reset |\n```\nEFUSE_KEY4_DATA3 Represents the 3rd 32 bits of KEY4. (RO)\n```

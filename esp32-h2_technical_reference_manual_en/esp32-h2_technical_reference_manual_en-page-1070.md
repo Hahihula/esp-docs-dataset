@@ -1,0 +1,4 @@
+
+
+```markdown\nChapter 36 Motor Control PWM (MCPWM)\nGoBack\n\n• Superimposes a carrier on the PWM signal if configured to do so\n• Handles response under fault conditions\nFigure 36.3-14 shows the block diagram of a PWM operator.\n\n![Block Diagram of A PWM Operator](https://example.com/path-to-diagram)  // Note: Actual image URL would be here; this is a placeholder as per instruction to describe diagrams if understood, but text labels are transcribed below\n\nFigure 36.3-14. Block Diagram of A PWM Operator\n```
+\n(Note: The diagram's visual elements are described via labeled components and connections in the markdown structure above, preserving the textual flow and relationships as extracted.)

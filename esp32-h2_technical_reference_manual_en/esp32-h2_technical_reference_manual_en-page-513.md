@@ -1,0 +1,3 @@
+
+
+```markdown\n| Name                     | Description                  | Address   | Access |\n|--------------------------|------------------------------|-----------|--------|\n| Clock Gating Registers   |                              |           |        |\n| TEE_CLOCK_GATE_REG       | Clock gating register        | 0x0080    | R/W    |\n| Version Control Registers|                              |           |        |\n| TEE_DATE_REG             | Version control register     | 0x0FFC    | R/W    |\n```

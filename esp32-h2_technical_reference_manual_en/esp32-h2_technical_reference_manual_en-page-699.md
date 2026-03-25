@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 27 Random Number Generator (RNG)  GoBack\n\n## 27.6 Register\n\nRegister 27.1. LPPERI_RNG_DATA_REG (0x600B_280C)\n\n```\n31                                 0\n+------------------------------------------------------------------------------+\n|                        0x00000000                                             |\n+------------------------------------------------------------------------------|\n    |                                                                        |\nReset                                                                 Reset\n```\n\nLPPERI_RNG_DATA  Random number source. (RO)\n```

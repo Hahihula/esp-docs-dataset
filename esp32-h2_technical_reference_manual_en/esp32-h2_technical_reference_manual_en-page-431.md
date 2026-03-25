@@ -1,0 +1,24 @@
+
+
+```markdown
+Register 11.37. PMU_HP_INT_ST_REG (0x0164)
+
+PMU_SOC_SLEEP_REJECT_INT_ST The masked interrupt status of PMU_SOC_SLEEP_REJECT_INT.
+(RO)
+
+PMU_SOC_WAKEUP_INT_ST The masked interrupt status of PMU_SOC_WAKEUP_INT. (RO)
+
+
+Register 11.38. PMU_HP_INT_ENA_REG (0x0168)
+
+PMU_SOC_SLEEP_REJECT_INT_ENA Write 1 to enable PMU_SOC_SLEEP_REJECT_INT. (R/W)
+
+PMU_SOC_WAKEUP_INT_ENA Write 1 to enable PMU_SOC_WAKEUP_INT. (R/W)
+
+
+Register 11.39. PMU_HP_INT_CLR_REG (0x016C)
+
+PMU_SOC_SLEEP_REJECT_INT_CLR Write 1 to clear PMU_SOC_SLEEP_REJECT_INT. (WT)
+
+PMU_SOC_WAKEUP_INT_CLR Write 1 to clear PMU_SOC_WAKEUP_INT. (WT)
+```

@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 6 IO MUX and GPIO Matrix (GPIO, IO MUX)  GoBack\n\nRegister 6.36. GPIO_EXT_INT_ST_REG (0x00E4)\n\n```\n31  | 1  | 0\n---|----|---\nreserved | Reset\n\nGPIO_EXT_PAD_COMP_INT_ST Represents the interrupt status bit of GPIO_EXT_PAD_COMP_INT. (RO)\n\nRegister 6.37. GPIO_EXT_INT_ENA_REG (0x00B8)\n\n```\n31  | 1  | 0\n---|----|---\nreserved | Reset\n\nGPIO_EXT_PAD_COMP_INT_ENA Represents the interrupt enable bit of GPIO_EXT_PAD_COMP_INT. (RW)\n\nRegister 6.38. GPIO_EXT_INT_CLR_REG (0x00EC)\n\n```\n31  | 1  | 0\n---|----|---\nreserved | Reset\n\nGPIO_EXT_PAD_COMP_INT_CLR Represents the interrupt clear bit of GPIO_EXT_PAD_COMP_INT. (WT)\n```

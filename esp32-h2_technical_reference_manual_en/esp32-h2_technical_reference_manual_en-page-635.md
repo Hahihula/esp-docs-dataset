@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 22 RSA Accelerator (RSA)\nGoBack\n\nIt is obvious that:\n\n- The time cost is biggest when none of these two options is configured for additional acceleration.\n- The time cost is smallest when both of these two options are configured for additional acceleration.\n- The time cost can be dramatically reduced when either or both option(s) are configured for additional acceleration.\n```

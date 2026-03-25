@@ -1,0 +1,3 @@
+
+
+```markdown\n| Name | Description | Address | Access |\n|:--------------------------------------------------------|:-----------------------------------------------------------------------------|:---------|:-------|\n| USB_SERIAL_JTAG_SET_LINE_CODE_W1_REG | W1 of SET_LINE_CODING command | 0x0054 | RO |\n| USB_SERIAL_JTAG_BUS_RESET_ST_REG | USB Bus reset status register | 0x0068 | RO |\n| Version Registers |  |  |  |\n| USB_SERIAL_JTAG_DATE_REG | Date register | 0x0080 | R/W |\n```

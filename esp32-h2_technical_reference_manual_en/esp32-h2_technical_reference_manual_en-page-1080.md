@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 36 Motor Control PWM (MCPWM) GoBack\n\nbe configured to be timing events or immediate events.\nFigure 36.3-21 shows a waveform of NCI software-force events. NCI events are used to force PWMxA output low. Forcing on PWMxB is disabled in this case.\n\nPeriod = 6\nA = 3\n\nPWM timer  UTEP  UTEZ  UTEA  NCI force event  PWMxA  PWMxB\n\nFigure 36.3-21. Example of an NCI Software-Force Event on PWMxA\n```

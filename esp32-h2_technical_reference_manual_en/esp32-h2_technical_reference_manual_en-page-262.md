@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 6 IO MUX and GPIO Matrix (GPIO, IO MUX)\nGoBack\n\nRegister 6.29. GPIO_EXT_ETM_TASK_P1_CFG_REG (0x00A4)\n\n| 31 | 28 | 27 | 25 | 24 | 23 | 20 | 19 | 17 | 16 | 15 | 12 | 11 | 9 | 8 | 7 | 4 | 3 | 1 | 0 |\n|----|----|----|----|----|----|----|----|----|----|----|----|----|---|---|---|---|---|---|---|\n| 0  | 0  | 0  | 0x0| 0  | 0  | 0  | 0  | 0x0| 0  | 0  | 0  | 0  | 0 | 0 | 0  | 0  | 0x0| 0  | Reset|\n\nGPIO_EXT_ETM_TASK_GPIOn_EN (n = 4 ~ 7) Configures whether or not to enable GPIOn to response ETM task.\nO: Not enable\n1: Enable\n(R/W)\n\nGPIO_EXT_ETM_TASK_GPIOn_SEL (n = 4 ~ 7) Configures to select an ETM task channel for GPIOn.\n0: Select channel 0\n1: Select channel 1\n......\n7: Select channel 7\n(R/W)\n```
