@@ -1,0 +1,12 @@
+
+
+```markdown
+| Bits       | Name     | Description |
+|------------|----------|-------------|
+| DWO[31]    | owner    | Specifies who is allowed to access the buffer that this descriptor points to.<ul><li>0: CPU can access the buffer</li><li>1: The 2D-DMA controller can access the buffer</li></ul>When the 2D-DMA controller stops using the buffer, this bit in a receive descriptor is automatically cleared by hardware, while this bit in a transmit descriptor can only be automatically cleared by hardware if DMA2D_OUT_AUTO_WRBACK_CHn is set to 1. When software loads a linked list, this bit should be set to 1. |
+| DWO[30]    | eof      | Specifies the end of frame.<ul><li>0: The current descriptor is not the last descriptor of an image</li><li>1: The current descriptor is the last descriptor of an image</li></ul>For receive descriptors, software needs to write 0 to this bit first, and hardware would set this bit to 1 after receiving a complete image. For transmit descriptors, software should set this bit in the last descriptor of an image to 1. |
+| DWO[29]    | 2DEN     | Specifies whether to enable 2D functions.<ul><li>0: 2D-DMA operates in 1D mode</li><li>1: 2D-DMA operates in 2D mode</li></ul> |
+| DWO[28]    | err_eof   | Specifies whether the received data has errors (JPEG only).<ul><li>0: The received data does not have errors</li><li>1: The received data has errors</li></ul>For receive descriptors, the hardware sets this bit to 1 after receiving a complete image and detecting errors in the received data. |
+| DWO[27:14] | length[13:0]/hb | hb in 2D mode – Specifies the horizontal width of the macroblocks to be moved in the unit of pixels.<br/>length[13:0] in 1D mode – Specifies the lower 14 bits of length, which is the number of valid bytes in the buffer that this descriptor points to. This field in a transmit descriptor is written by software and indicates how many bytes can be read from the buffer; this field in a receive descriptor is written by hardware automatically and indicates how many valid bytes have been stored in the buffer. |
+| DWO[13:0]  | size[13:0]/vb | vb in 2D mode – Specifies the vertical height of the macroblocks to be moved in the unit of pixels.<br/>size[13:0] in 1D mode – Specifies the lower 14 bits of size, which is the capacity of the buffer that this descriptor points to in the unit of bytes. |
+```

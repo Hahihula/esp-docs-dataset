@@ -1,0 +1,3 @@
+
+
+```markdown\n| Name | Description | Address | Access |\n|---|---|---|---|\n| SDHOST_STATUS_REG | SD/MMC status | 0x0048 | RO |\n| SDHOST_CDETECT_REG | Card detect | 0x0050 | RO |\n| SDHOST_WRTPRT_REG | Card write protection (WP) status | 0x0054 | RO |\n| SDHOST_TCBCNT_REG | Transferred byte count | 0x005C | RO |\n| SDHOST_TBBCNT_REG | Transferred byte count | 0x0060 | RO |\n| SDHOST_DSCADDR_REG | Host descriptor address pointer | 0x0094 | RO |\n| SDHOST_BUFADDR_REG | Host buffer address pointer | 0x0098 | RO |\n\n**Transmit and receive data registers**\n\n| SDHOST_BUFFIFO_REG | Software write and read transmit data by FIFO | 0x0200 | R/W |\n```

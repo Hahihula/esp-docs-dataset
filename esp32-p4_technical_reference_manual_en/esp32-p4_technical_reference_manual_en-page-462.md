@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 6 2D-DMA Controller (2D-DMA)\nGoBack\n\nRegister 6.49. DMA2D_OUT_EOF_DES_ADDR_CHn_REG (n: 0-3) (0x0028+0x100*n)\n\nDMA2D_OUT_EOF_DES_ADDR_CHn  Represents the address of the transmit descriptor when the eof bit in this descriptor is 1. (RO)\n\nRegister 6.50. DMA2D_OUT_DSCR_CHn_REG (n: 0-3) (0x002C+0x100*n)\n\nDMA2D_OUTLINK_DSCR_CHn  Represents the address of the next transmit descriptor pointed by the current transmit descriptor that is pre-read. (RO)\n\nRegister 6.51. DMA2D_OUT_DSCR_BFO_CHn_REG (n: 0-3) (0x0030+0x100*n)\n\nDMA2D_OUTLINK_DSCR_BFO_CHn  Represents the address of the current transmit descriptor that is pre-read. (RO)\n\nEspressif Systems  462  ESP32-P4 TRM PRELIMINARY Submit Documentation Feedback\n```

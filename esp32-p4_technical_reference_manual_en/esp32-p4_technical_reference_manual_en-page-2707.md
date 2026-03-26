@@ -1,0 +1,13 @@
+
+
+```markdown
+| Internal Interrupt Source | Trigger Condition                                                                                                                                                                                                                                                                   | Interrupt Signal |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+|                            | The Error Warning Interrupt (EWI) is triggered whenever there is a change to the TWAI_STATUS_ERR and TWAI_STATUS_NODE_BUS_OFF bits of the TWAI_STATUS_REG (i.e., transition from 0 to 1 or vice versa). Thus, an EWI could indicate one of the following events, depending on the values TWAI_STATUS_ERR and TWAI_STATUS_NODE_BUS_OFF at the moment when the EWI is triggered. |                  |
+|                            | • If TWAI_STATUS_ERR = 0 and TWAI_STATUS_NODE_BUS_OFF = 0: <ul><li>- If the TWAI controller was in the Error Active state, it indicates both the TEC and REC have returned below the threshold value set by TWAI_ERR_WARNING_LIMIT_REG.</li><li>- If the TWAI controller was previously in the Bus Off Recovery state, it indicates that Bus Recovery has completed successfully.</li></ul> |                  |
+|                            | • If TWAI_STATUS_ERR = 1 and TWAI_STATUS_NODE_BUS_OFF = 0: The TEC or REC error counters have exceeded the threshold value set by TWAI_ERR_WARNING_LIMIT_REG.                                                                                                               |                  |
+| TWAI_ERR_WARNING_INT (EWI) | • If TWAI_STATUS_ERR = 1 and TWAI_STATUS_NODE_BUS_OFF = 1: The TWAI controller has entered the BUS_OFF state (due to the TEC >= 256).                                                                                                                                              | TWAI_INT         |
+|                            | • If TWAI_STATUS_ERR = 0 and TWAI_STATUS_NODE_BUS_OFF = 1: The TWAI controller's TEC has dropped below the threshold value set by TWAI_ERR_WARNING_LIMIT_REG during BUS_OFF recovery.                                                                                           |                  |
+
+Cont'd on next page
+```

@@ -1,0 +1,28 @@
+
+```markdown
+| Name                                       | Description                                                                 | Address   | Access |
+|--------------------------------------------|-----------------------------------------------------------------------------|-----------|--------|
+| **Status Registers**                       |                                                                             |           |        |
+| LP_I2C_SR_REG                              | Describe I2C work status                                                   | 0x0008    | RO     |
+| LP_I2C_FIFO_ST_REG                         | FIFO status register                                                        | 0x0014    | RO     |
+| LP_I2C_DATA_REG                            | Rx FIFO read data                                                           | 0x001C    | RO     |
+| **Interrupt Registers**                    |                                                                             |           |        |
+| LP_I2C_INT_RAW_REG                         | Raw interrupt status                                                        | 0x0020    | R/SS/WT|
+| LP_I2C_INT_CLR_REG                         | Interrupt clear bits                                                        | 0x0024    | WT     |
+| LP_I2C_INT_ENA_REG                         | Interrupt enable bits                                                       | 0x0028    | R/W    |
+| LP_I2C_INT_STATUS_REG                      | Status of captured I2C communication events                                | 0x002C    | RO     |
+| **Command Registers**                      |                                                                             |           |        |
+| LP_I2C_COMDO_REG                           | I2C command register 0                                                      | 0x0058    | varies |
+| LP_I2C_COMD1_REG                           | I2C command register 1                                                      | 0x005C    | varies |
+| LP_I2C_COMD2_REG                           | I2C command register 2                                                      | 0x0060    | varies |
+| LP_I2C_COMD3_REG                           | I2C command register 3                                                      | 0x0064    | varies |
+| LP_I2C_COMD4_REG                           | I2C command register 4                                                      | 0x0068    | varies |
+| LP_I2C_COMD5_REG                           | I2C command register 5                                                      | 0x006C    | varies |
+| LP_I2C_COMD6_REG                           | I2C command register 6                                                      | 0x0070    | varies |
+| LP_I2C_COMD7_REG                           | I2C command register 7                                                      | 0x0074    | varies |
+| **Version Register**                       |                                                                             |           |        |
+| LP_I2C_DATE_REG                            | Version register                                                            | 0x00F8     | R/W    |
+| **Address Registers**                      |                                                                             |           |        |
+| LP_I2C_TXFIFO_START_ADDR_REG               | I2C TXFIFO base address register                                           | 0x0100    | HRO    |
+| LP_I2C_RXFIFO_START_ADDR_REG               | I2C RXFIFO base address register                                           | 0x0180    | HRO    |
+```

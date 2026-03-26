@@ -1,0 +1,14 @@
+
+
+```markdown
+Register 38.18. LCD_CAM_LC_DMA_INT_CLR_REG (0x0070)
+
+LCD_CAM_LCD_VSYNC_INT_CLR   Write 1 to clear LCD_CAM_LCD_VSYNC_INT. (WO)
+LCD_CAM_LCD_TRANS_DONE_INT_CLR   Write 1 to clear LCD_CAM_LCD_TRANS_DONE_INT. (WO)
+LCD_CAM_CAM_VSYNC_INT_CLR   Write 1 to clear LCD_CAM_CAM_VSYNC_INT. (WO)
+LCD_CAM_CAM_HS_INT_CLR   Write 1 to clear LCD_CAM_CAM_HS_INT. (WO)
+
+Register 38.19. LCD_CAM_LC_REG_DATE_REG (0x00FC)
+
+LCD_CAM_LC_DATE   Version control register. (R/W)
+```

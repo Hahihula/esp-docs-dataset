@@ -1,0 +1,44 @@
+
+
+```markdown
+Register 38.16. LCD_CAM_LC_DMA_INT_RAW_REG (0x0068)
+
+(reserved)
+LCD_CAM_CAM_HS_INT_RAW
+LCD_CAM_CAM_VSYNC_INT_RAW
+LCD_CAM_LCD_TRANS_DONE_INT_RAW
+LCD_CAM_LCD_VSYNC_INT_RAW
+
+Reset
+31
+4   3   2   1   0
+
+LCD_CAM_LCD_VSYNC_INT_RAW The raw interrupt status of LCD_CAM_LCD_VSYNC_INT. (RO)
+
+LCD_CAM_LCD_TRANS_DONE_INT_RAW The raw interrupt status of LCD_CAM_LCD_TRANS_DONE_INT. (RO)
+
+LCD_CAM_CAM_VSYNC_INT_RAW The raw interrupt status of LCD_CAM_CAM_VSYNC_INT. (RO)
+
+LCD_CAM_CAM_HS_INT_RAW The raw interrupt status of LCD_CAM_CAM_HS_INT. (RO)
+
+
+Register 38.17. LCD_CAM_LC_DMA_INT_ST_REG (0x006C)
+
+(reserved)
+LCD_CAM_CAM_HS_INT_ST
+LCD_CAM_CAM_VSYNC_INT_ST
+LCD_CAM_LCD_TRANS_DONE_INT_ST
+LCD_CAM_LCD_VSYNC_INT_ST
+
+Reset
+31
+4   3   2   1   0
+
+LCD_CAM_LCD_VSYNC_INT_ST The masked interrupt status of LCD_CAM_LCD_VSYNC_INT. (RO)
+
+LCD_CAM_LCD_TRANS_DONE_INT_ST The masked interrupt status of LCD_CAM_LCD_TRANS_DONE_INT. (RO)
+
+LCD_CAM_CAM_VSYNC_INT_ST The masked interrupt status of LCD_CAM_CAM_VSYNC_INT. (RO)
+
+LCD_CAM_CAM_HS_INT_ST The masked interrupt status of LCD_CAM_CAM_HS_INT. (RO)
+```

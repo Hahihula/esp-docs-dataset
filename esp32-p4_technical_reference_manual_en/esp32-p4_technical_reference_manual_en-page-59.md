@@ -1,0 +1,3 @@
+
+
+```markdown\nList of Figures\n\n62.5-1 HP ADC FSM Block Diagram 3028\n62.5-2 ADC_SARx_PATT_TAB1_REG Contains Patterns 0 - 3 3029\n62.5-3 ADC_SARx_PATT_TAB2_REG Contains Patterns 4 - 7 3029\n62.5-4 ADC_SARx_PATT_TAB3_REG Contains Patterns 8 - 11 3029\n62.5-5 ADC_SARx_PATT_TAB4_REG Contains Patterns 12 - 15 3029\n62.5-6 Pattern Structure 3030\n62.5-7 cmdO configuration 3030\n62.5-8 cmd1 Configuration 3030\n62.5-9 GDMA Data Format 3032\n63.3-1 Analog Voltage Comparator Architecture 3066\n```

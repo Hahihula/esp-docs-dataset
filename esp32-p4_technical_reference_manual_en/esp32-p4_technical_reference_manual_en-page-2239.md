@@ -1,0 +1,3 @@
+
+
+```markdown\nFigure 43.8-1. Timing Compensation Control Diagram in GP-SPI as Master\n```\nEvery input and output data is passing through the Timing Module and the module can be used to apply delay in units of T_clk_spi_mst (one cycle of clk_spi_mst) on rising or falling edge.\n\n**Key Registers**\n*   `SPI_DIN_MODE_REG`: select the latch edge of input data\n*   `SPI_DIN_NUM_REG`: select the delay cycles of input data\n*   `SPI_DOUT_MODE_REG`: select the latch edge of output data\n\n**Timing Compensation Example**\nFigure 43.8-2 shows a timing compensation example in GP-SPI2 as master. Note that DUMMY cycle length is configurable to compensate the delay in I/O lines, so as to enhance the performance of GP-SPI2.\n```

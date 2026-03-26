@@ -1,0 +1,3 @@
+
+
+```markdown\n| Name | Description | Address | Access |\n|:-------------------------------|:--------------------------------------------------|:---------|:--------|\n| **Timestamp Register** ||||\n| TWAI_TIMESTAMP_DATA_REG | Timestamp Data Register | 0x0094 | RO |\n| TWAI_TIMESTAMP_PRESCALER_REG | Timestamp Configuration Register 0 | 0x0098 | R/W |\n| TWAI_TIMESTAMP_CFG_REG | Timestamp Configuration Register 1 | 0x009C | R/W |\n```

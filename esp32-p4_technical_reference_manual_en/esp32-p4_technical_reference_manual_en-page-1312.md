@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 20 System Registers (SYSREG) GoBack\n\n## 20.5.3 LP Registers\nThe addresses in this section are relative to LP System Registers base address provided in Table 7.3-2 in Chapter 7 System and Memory.\nFor how to program reserved fields, please refer to Section Programming Reserved Register Field.\n\nRegister 20.87. LP_SYSTEM_LP_SYS_VER_DATE_REG (0x0000)\n\n```\n\n[Diagram: LP_SYSTEM_VER_DATE register bit field]\n\n| Bit Range | Description          |\n|-----------|----------------------|\n| 31-0      | LP_SYSTEM_VER_DATE   |\n|           | Version control register. (R/W) |\n\nValue at reset: `0x20230509`\n\nLP_SYSTEM_VER_DATE Version control register. (R/W)\n```

@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 25 AES Accelerator (AES)\nGoBack\n\nRegister 25.17. AES_PSEUDO_REG (0x0000)\n\n| Bit | 31 | ... | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |\n|-----|----|------|-----|---|---|---|---|---|---|---|---|---|---|\n|     |    | (reserved) | AES_PSEUDO_RNG_CNT | AES_PSEUDO_INC | AES_PSEUDO_BASE | AES_PSEUDO_EN |\n\n0x0000000  | 7 | 2 | 2 | 0 | Reset\n\nAES_PSEUDO_EN Configures whether to enable the pseudo-round function of AES.  \nO: Disable  \n1: Enable  \n(R/W)\n\nAES_PSEUDO_BASE Configures the basic number of pseudo-rounds. (R/W)\n\nAES_PSEUDO_INC Configures the random incremental number of pseudo-rounds. (R/W)\n\nAES_PSEUDO_RNG_CNT Configures the frequency of pseudo-key updates in the pseudo-round function. (R/W)\n```

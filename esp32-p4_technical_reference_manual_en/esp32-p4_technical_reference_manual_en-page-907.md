@@ -1,0 +1,62 @@
+
+
+```markdown
+| 31 | 30 | 29 | 28 | 27 | 26 | 25 | 24 | 23 | 22 | 21 | 20 | 19 | 18 | 17 | 16 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|-----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Reset |
+```
+
+
+## Register 13.24. SOC_ETM_EVT_STO_CLR_REG (0x01AC)
+
+SOC_ETM_LEDC_EVT_DUTY_CHNG_END_CH4_ST_CLR  
+SOC_ETM_LEDC_EVT_DUTY_CHNG_END_CH3_ST_CLR  
+SOC_ETM_LEDC_EVT_DUTY_CHNG_END_CH2_ST_CLR  
+SOC_ETM_GPIO_EVT_CH1_CLR_ST_CLR  
+SOC_ETM_GPIO_EVT_ZERO_DET_CH1_ST_CLR  
+SOC_ETM_GPIO_EVT_ZERO_DET_CH0_ST_CLR  
+SOC_ETM_GPIO_EVT_NEG1_DET_ST_CLR  
+SOC_ETM_GPIO_EVT_POS1_DET_ST_CLR  
+SOC_ETM_GPIO_EVT_CH4_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH3_ANY_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH2_ANY_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH6_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH7_DET_P0SO_ST_CLR  
+SOC_ETM_GPIO_EVT_CH5_FALL_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH4_FALL_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH3_FALL_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH2_FALL_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH1_FALL_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH0_FALL_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH7_RISE_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH6_RISE_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH5_RISE_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH4_RISE_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH3_RISE_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH2_RISE_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH1_RISE_EDGE_ST_CLR  
+SOC_ETM_GPIO_EVT_CH0_RISE_EDGE_ST_CLR  
+
+SOC_ETM_GPIO_EVT_CHO_RISE_EDGE_ST_CLR Configures whether to clear GPIO_EVT_CHO_RISE_EDGE.  
+O: Invalid. No effect  
+1: Clear (WT)  
+
+SOC_ETM_GPIO_EVT_CH1_RISE_EDGE_ST_CLR Configures whether to clear GPIO_EVT_CH1_RISE_EDGE.  
+O: Invalid. No effect  
+1: Clear (WT)  
+
+SOC_ETM_GPIO_EVT_CH2_RISE_EDGE_ST_CLR Configures whether to clear GPIO_EVT_CH2_RISE_EDGE.  
+O: Invalid. No effect  
+1: Clear (WT)  
+
+SOC_ETM_GPIO_EVT_CH3_RISE_EDGE_ST_CLR Configures whether to clear GPIO_EVT_CH3_RISE_EDGE.  
+O: Invalid. No effect  
+1: Clear (WT)  
+
+SOC_ETM_GPIO_EVT_CH4_RISE_EDGE_ST_CLR Configures whether to clear GPIO_EVT_CH4_RISE_EDGE.  
+O: Invalid. No effect  
+1: Clear (WT)  
+
+
+Continued on the next page...
+```

@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 13 Event Task Matrix (ETM)\n\nRegister 13.21. SOC_ETM_CH_ENA_AD1_CLR_REG (0x0014)\n\nSOC_ETM_CHn_DISABLEn (n: 32-49) Configures whether to disable channeln.\nO: Invalid. No effect\n1: Disable\n(WT)\n\nRegister 13.22. SOC_ETM_CHn_EVT_ID_REG (n: 0-49) (0x0018+0x8*n)\nSOC_ETM_CHn_EVT_ID (n: 0-49) Configures the event ID of channeln. See Table 13.3-1. (R/W)\n\nRegister 13.23. SOC_ETM_CHn_TASK_ID_REG (n: 0-49) (0x001C+0x8*n)\nSOC_ETM_CHn_TASK_ID (n: 0-49) Configures the task ID of channeln. See Table 13.3-2. (R/W)\n\nEpressif Systems                          906                           ESP32-P4 TRM\nSubmit Documentation Feedback            PRELIMINARY\n```

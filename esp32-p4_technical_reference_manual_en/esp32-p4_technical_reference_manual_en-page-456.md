@@ -1,0 +1,47 @@
+
+
+```markdown
+Register 6.43. DMA2D_IN_INT_RAW_CHn_REG (n: 0-2) (0x0504+0x100*n)
+
+DMA2D_IN_DONE_CHn_INT_RAW The raw interrupt status of DMA2D_IN_DONE_CHn_INT.
+(R/WTC/SS)
+
+DMA2D_IN_SUC_EOF_CHn_INT_RAW The raw interrupt status of DMA2D_IN_SUC_EOF_CHn_INT.
+(R/WTC/SS)
+
+DMA2D_IN_ERR_EOF_CHn_INT_RAW The raw interrupt status of DMA2D_IN_ERR_EOF_CHn_INT.
+(R/WTC/SS)
+
+DMA2D_IN_DSCR_ERR_CHn_INT_RAW The raw interrupt status of
+DMA2D_IN_DSCR_ERR_CHn_INT. (R/WTC/SS)
+
+DMA2D_INFIFO_OVF_L1_CHn_INT_RAW The raw interrupt status of
+DMA2D_INFIFO_OVF_L1_CHn_INT. (R/WTC/SS)
+
+DMA2D_INFIFO_UDF_L1_CHn_INT_RAW The raw interrupt status of
+DMA2D_INFIFO_UDF_L1_CHn_INT. (R/WTC/SS)
+
+DMA2D_INFIFO_OVF_L2_CHn_INT_RAW The raw interrupt status of
+DMA2D_INFIFO_OVF_L2_CHn_INT. (R/WTC/SS)
+
+DMA2D_INFIFO_UDF_L2_CHn_INT_RAW The raw interrupt status of
+DMA2D_INFIFO_UDF_L2_CHn_INT. (R/WTC/SS)
+
+DMA2D_INFIFO_OVF_L3_CHn_INT_RAW The raw interrupt status of
+DMA2D_INFIFO_OVF_L3_CHn_INT. (R/WTC/SS)
+
+DMA2D_INFIFO_UDF_L3_CHn_INT_RAW The raw interrupt status of
+DMA2D_INFIFO_UDF_L3_CHn_INT. (R/WTC/SS)
+
+DMA2D_IN_DSCR_EMPTY_CHn_INT_RAW The raw interrupt status of
+DMA2D_IN_DSCR_EMPTY_CHn_INT. (R/WTC/SS)
+
+DMA2D_INFIFO_RO_OVF_CHO_INT_RAW The raw interrupt status of
+DMA2D_INFIFO_RO_OVF_CHO_INT. (R/WTC/SS)
+
+DMA2D_INFIFO_RO_UDF_CHO_INT_RAW The raw interrupt status of
+DMA2D_INFIFO_RO_UDF_CHO_INT. (R/WTC/SS)
+
+DMA2D_IN_DSCR_TASK_OVF_CHn_INT_RAW The raw interrupt status of
+DMA2D_IN_DSCR_TASK_OVF_CHn_INT. (R/WTC/SS)
+```

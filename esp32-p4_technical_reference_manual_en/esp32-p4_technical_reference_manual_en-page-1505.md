@@ -1,0 +1,3 @@
+
+
+```markdown\nChapter 29 SHA Accelerator (SHA)\nGoBack\n\nRegister 29.12. SHA_DATE_REG (0x002C)\n\n| 31 | 30 | 29 |\n|----|----|----|\n|    |    |    |\n| 0  | 0  |    |\n|    |    | 0x20190402 |\nReset\n\nSHA_DATE Version control register. (R/W)\n\nRegister 29.13. SHA_H_n_REG (n: 0-15) (0x0040+4*n)\n\n| 31 |\n|----|\n|    |\n| 0x0000000 |\nReset\n\nSHA_H_n Represents the nth 32-bit piece of the Hash value. (R/W)\n\nRegister 29.14. SHA_M_n_REG (n: 0-31) (0x0080+4*n)\n\n| 31 |\n|----|\n|    |\n| 0x0000000 |\nReset\n\nSHA_M_n Represents the nth 32-bit piece of the message. (R/W)\n```

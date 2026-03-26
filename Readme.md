@@ -34,6 +34,8 @@ The PDFs are splited by pages.
   * [esp32-c5_technical_reference_manual_en](./esp32-c5_technical_reference_manual_en) - ESP32-C5 Technical Reference Manual
   * [esp32-c61_technical_reference_manual_en](./esp32-c61_technical_reference_manual_en) - ESP32-C61 Technical Reference Manual
   * [esp32-h2_technical_reference_manual_en](./esp32-h2_technical_reference_manual_en) - ESP32-H2 Technical Reference Manual
+  * [esp32-p4_technical_reference_manual_en](./esp32-p4_technical_reference_manual_en) - ESP32-P4 Technical Reference Manual
+  
 ## ESP-IDF Documentation
 
   * [esp-idf-master](./esp-idf-master) - Full ESP-IDF documentation converted to markdown format

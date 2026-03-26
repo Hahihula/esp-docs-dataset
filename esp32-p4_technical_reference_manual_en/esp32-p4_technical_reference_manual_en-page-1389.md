@@ -1,0 +1,12 @@
+
+
+```markdown
+Register 21.67. ASSIST_DEBUG_CORE_1_RCD_PDEBUGSP_REG (0x00CC)
+
+ASSIST_DEBUG_CORE_1_RCD_PDEBUGSP   Represents the HP CPU1 SP. (RO)
+
+
+Register 21.68. ASSIST_DEBUG_CORE_1_LASTPC_BEFORE_EXCEPTION_REG (0x00F0)
+
+ASSIST_DEBUG_CORE_1_LASTPC_BEFORE_EXC   Represents the HP CPU1 PC of the last command before the HP CPU1 enters exception. (RO)
+```

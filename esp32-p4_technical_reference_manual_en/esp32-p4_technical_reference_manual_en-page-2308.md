@@ -1,0 +1,47 @@
+
+
+```markdown
+Register 43.48. SPI_SLAVE_REG (0x00E0)
+
+| Bit | 31 | 30 | 29 | 28 | 27 | 26 | 25 | 20 | 19 | 12 | 11 | 10 | 9 | 8 | 7 | 4 | 3 | 2 | 1 | 0 |
+|-----|----|----|----|----|----|----|----|----|----|----|----|----|---|---|---|---|---|---|---|---|
+|     | (reserved) | SPI_MST_FD_WAIT_DMA_TX_DATA | (reserved) | SPI_SOFT_RESET | SPI_SLAVE_MODE | (reserved) | SPI_SLV_LAST_BYTE_STRB | SPI_SLV_WRBUF_BITLEN_EN | SPI_SLV_RDMA_BITLEN_EN | SPI_RSCCK_DATA_OUT | SPI_CLK_MODE_13 | SPI_CLK_MODE | Reset |
+| Value | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+SPI_CLK_MODE   Configures SPI clock mode.
+               0: SPI clock is off when CS becomes inactive.
+               1: SPI clock is delayed one cycle after CS becomes inactive.
+               2: SPI clock is delayed two cycles after CS becomes inactive.
+               3: SPI clock is always on.
+               (R/W)
+
+SPI_CLK_MODE_13 Configures clock mode.
+                 0: SPI clock mode 1 and mode 3. See Table 43.7-2.
+                 1: SPI clock mode 0 and mode 2. See Table 43.7-2.
+                 (R/W)
+
+SPI_RSCK_DATA_OUT   Configures the edge of output data.
+                    0: Output data at TSCK rising edge.
+                    1: Output data at RSCK rising edge.
+                    (R/W)
+
+SPI_SLV_RDDMA_BITLEN_EN   Configures whether or not to use SPI_SLV_DATA_BITLEN to store the
+                          data bit length of Rd_DMA transfer.
+                          0: Not use
+                          1: Use
+                          (R/W)
+
+SPI_SLV_WRDMA_BITLEN_EN   Configures whether or not to use SPI_SLV_DATA_BITLEN to store
+                          the data bit length of Wr_DMA transfer.
+                          0: Not use
+                          1: Use
+                          (R/W)
+
+SPI_SLV_RDBUF_BITLEN_EN   Configures whether or not to use SPI_SLV_DATA_BITLEN to store the
+                          data bit length of Rd_BUF transfer.
+                          0: Not use
+                          1: Use
+                          (R/W)
+
+Continued on the next page...
+```

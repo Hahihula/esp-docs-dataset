@@ -1,0 +1,19 @@
+
+
+```markdown
+- H264_MV_MERGE_TYPE: This register controls the type of MV merging. Configuring this register to 0 means only retaining the MV of the MB whose final type is P MB and the partition of luma component is 16 x 16. Configuring this register to 1 means only retaining the MV with the minimum modulus of the MB whose final type is P MB. Configuring this register to 2 means only retaining the MV with the maximum modulus of the MB whose final type is P MB. 3 is an invalid value. When the register H264_x_MV_MERGE_EN is set to 1, the configuration of this register will take effect.
+- H264_INT_MV_OUT_EN: This register controls the type of merged MV ultimately stored in memory. Setting this register to 0 means that if the reserved merged MV is not 0, it will be stored in memory. Otherwise, it will be discarded. Setting this register to 1 means that if the integer part of the reserved merged MV is not 0, it will be stored in memory, otherwise discarded. When the register H264_x_MV_MERGE_EN is set to 1, the configuration of this register will take effect.
+- H264_MB_VALID_NUM: This register represents the number of MV merging results stored in the memory in the current picture. One MB corresponds to one MV merging result. When the register H264_x_MV_MERGE_EN is set to 1, the value of this register is meaningful, otherwise the value of this register is meaningless and remains 0.
+```
+
+## 39.5.1.4 MB Level Rate Control
+
+The ENC_CORE calculates the QP adjustment amount of each MB based on the configuration of the rate control related registers, the number of encoding bits of the current MB, and the mean absolute value of the residual (MAD). Then it uses the frame-level QP configured in the register and the QP adjustment amount to calculate the QP of each MB, thereby adjusting the number of coded bits.
+
+The MB level rate control related registers are as follows:
+
+- H264_x_MB_RATE_CTRL_EN: This register controls the enablement of MB level rate control. Setting this register to 1 means enabling the MB level rate control function of the corresponding video sequence. Setting this register to 0 means turning off the MB level rate control function of the corresponding video sequence. x can be A or B, indicating the register corresponding to video sequence A or B. Since the I frame uses a constant QP encoding method, the QP of each macro block of the I frame will not change even if the MB level rate control function is enabled.
+- H264_x_RATE_CTRL_U: The value of this register is configured by the parameters calculated by the frame-level rate control in the software. ENC_CORE needs this value to calculate the QP adjustment amount of each macro block. x can be A or B, indicating the register corresponding to video sequence A or B. The calculation method of the configuration value of this register belongs to the category of the frame-level rate control algorithm in the software, which is beyond the scope of this chapter and will not be described.
+- H264_x_MAD_FRAME_PRED: This register is the predicted value of frame-level MAD, which is configured by the frame-level rate control in the software. ENC_CORE needs this value to calculate the QP adjustment amount of each MB, x can be A or B, indicating the register corresponding to video sequence A or B. The calculation method of the configuration value of this register belongs to the category of the frame-level rate control algorithm in the software, which is beyond the scope of this chapter and will not be described.
+- H264_x_QP: This register is the frame-level QP value, and the value range is 10 to 51. It is configured by the frame-level rate control in the software. ENC_CORE will adjust the QP value of each MB based on it, so as to realize the MB level rate control, x can be A or B, indicating the register corresponding to video
+```

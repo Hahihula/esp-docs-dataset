@@ -1,0 +1,16 @@
+
+
+```markdown
+Register 21.8. SPM_MEM_MONITOR_LOG_MEM_CURRENT_ADDR_REG (0x0020)
+
+SPM_MEM_MONITOR_LOG_MEM_CURRENT_ADDR Represents the address of the next write.
+(RO)
+
+Register 21.9. SPM_MEM_MONITOR_LOG_MEM_ADDR_UPDATE_REG (0x0024)
+
+SPM_MEM_MONITOR_LOG_MEM_ADDR_UPDATE Configures whether to update the value in SPM_MEM_MONITOR_LOG_MEM_START_REG to SPM_MEM_MONITOR_LOG_MEM_CURRENT_ADDR_REG.
+
+1: Update
+0: Not update
+(WT)
+```
